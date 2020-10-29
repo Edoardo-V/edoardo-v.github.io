@@ -21,7 +21,7 @@
 title: Edoardo Vittori
 author:
   email: edoardo.vittori@polimi.it
-  name: Edoardo Vittori
+  # name: Edoardo Vittori
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my personal page, here you can find information on my latest publications
   as well as personal interests and curiosities.
