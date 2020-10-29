@@ -2,10 +2,9 @@
 layout: page
 title: About
 permalink: /about/
-order: 2
 ---
 
-## Short Bio
+## Bio
 
 Edoardo Vittori is a Ph.D. student at Politecnico di Milano – Dipartimento di Elettronica, Informazione e Bioingegneria – and XVA Trader in Banca IMI. In 2016 he graduated with a Master Degree in Mathematics from Imperial College London obtaining a First, in 2018 he obtained an Executive Master in Finance from SDA Bocconi.
 His research interests include artificial intelligence and machine learning. His main focus is on reinforcement learning and its applications in finance: creating an artificial agent capable of generating trading policies by learning from historical market data.
