@@ -27,14 +27,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  edoardo-v
 linkedin_username: Edoardo-Vittori
-# linkedin_username: [Edoardo Vittori](https://www.linkedin.com/in/edoardo-vittori/)
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
 collections:
-   papers:
-    output: true
+  - myresearch
+ #   output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

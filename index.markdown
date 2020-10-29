@@ -2,4 +2,4 @@
 layout: home
 ---
 
-## Bio
+Welcome to my page, I am Edoardo Vittori..
