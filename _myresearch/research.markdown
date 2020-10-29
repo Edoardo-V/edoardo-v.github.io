@@ -2,6 +2,9 @@
 name: Research
 ---
 
+My research focus is in the application of reinforcement learning to trading and hedging. Specifically regarding reinforcement learning I have analyzed:
+
+
 ### Conference papers
 
 + Edoardo Vittori, Martino Bernasconi, Francesco Trovò, Marcello Restelli. *Dealing with Transaction Costs in Portfolio Optimization: Online Gradient Descent with Momentum*, ICAIF 2020
