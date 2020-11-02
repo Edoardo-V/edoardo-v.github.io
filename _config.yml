@@ -44,7 +44,7 @@ plugins:
   - jekyll-feed
 
 collections:
-  - myresearch
+  - mypublications
  #   output: true
 
 # Exclude from processing.
