@@ -3,5 +3,7 @@ layout: post
 title:  "EMAF conference"
 date:   2020-09-18
 ---
-
 Conference
+[link](https://www.unive.it/pag/40972/)
+
+Download the slides [[PDF]({{ site.url }}/downloads/EMAF_TRVO_talk.pdf)]

@@ -3,4 +3,14 @@ layout: post
 title:  "ICAIF conference"
 date:   2020-10-15
 ---
-ICAIF conference
+
+International Conference on AI in Finance, 14-16 October 2020\\
+[ICAIF](https://ai-finance.org/)
+
+
+
+Option hedging\\
+Download the slides [[PDF]({{ site.url }}/downloads/ICAIF_Option_Hedging_talk.pdf)]
+
+Online gradient descent with momentum\\
+Download the slides [[PDF]({{ site.url }}/downloads/ICAIF_OGDM_talk.pdf)]

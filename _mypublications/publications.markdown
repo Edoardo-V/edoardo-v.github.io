@@ -17,3 +17,4 @@ My research focus is in the application of reinforcement learning to trading and
 [[PDF](https://www.ijcai.org/Proceedings/2020/0632.pdf)]
 
 
++ Shafa Aria, Rui Azevedo, Rick Burow, Fiachra Cahill, Lada Ducheckova5, Alexa Holroyd6, Victor Huarcaya, Emilia Jarvel, Martin Koßagk, Chris Moeckel, Ana Rodriguez, Fabien Royer, Richard Sypniewski, Edoardo Vittori, Madeleine Yttergren.  *GLINT: Gravitational-wave laser INterferometry triangle.* Experimental Astronomy. 2017. [[PDF](https://www.researchgate.net/publication/321195945_GLINT_Gravitational-wave_laser_INterferometry_triangle/fulltext/5d6ec8db45851542789f742a/GLINT-Gravitational-wave-laser-INterferometry-triangle.pdf)]
