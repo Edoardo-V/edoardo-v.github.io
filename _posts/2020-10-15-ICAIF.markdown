@@ -5,8 +5,7 @@ date:   2020-10-15
 ---
 
 International Conference on AI in Finance, 14-16 October 2020\\
-[ICAIF](https://ai-finance.org/)
-
+[ICAIF](https://ai-finance.org/) 
 
 
 Option hedging\\
