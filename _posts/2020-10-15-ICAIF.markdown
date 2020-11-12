@@ -4,12 +4,12 @@ title:  "ICAIF conference"
 date:   2020-10-15
 ---
 
-International Conference on AI in Finance, 14-16 October 2020\\
-[ICAIF](https://ai-finance.org/) 
+International Conference on AI in Finance, 14-16 October 2020, [Website]](https://ai-finance.org/) 
 
+Here two of my papers were accepted, I also presented both research works, you can find the slides below.
 
-Option hedging\\
-Download the slides [[PDF]({{ site.url }}/downloads/ICAIF_Option_Hedging_talk.pdf)]
+*Option hedging with Risk Averse Reinforcement Learning*\\
+Download the slides [[PDF]({{site.url}}/downloads/ICAIF_Option_Hedging_talk.pdf)]
 
-Online gradient descent with momentum\\
-Download the slides [[PDF]({{ site.url }}/downloads/ICAIF_OGDM_talk.pdf)]
+*Dealing with Transaction Costs in Portfolio Optimization: Online Gradient Descent with Momentum*\\
+Download the slides [[PDF]({{site.url}}/downloads/ICAIF_OGDM_talk.pdf)]

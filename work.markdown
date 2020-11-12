@@ -2,6 +2,7 @@
 layout: default
 title: Work
 permalink: /work/
+order: 3
 ---
 
 I work in Intesa Sanpaolo, an italian bank based in Milan. I'm in the XVA Management desk which prices and hedges the x value adjustments. 

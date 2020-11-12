@@ -5,5 +5,7 @@ date:   2019-03-11
 ---
 [link](https://www.sdabocconi.it/en/workshop-milan-mining-the-moon-for-profit)
 
+This is a work done in collaboration with the [Space Economy Evolution Lab](https://www.sdabocconi.it/en/faculty-research/labs-and-research-centers/see-lab-space-economy-evolution) in SDA Bocconi, we presented in the event on *Mining the Moon for profit* in March 2019. The work consists in a study where a business plan was constructed in order to understand if it is profitable to extract water from the Moon in order to use it as propellant to fuel Cislinar travel.
+
 
 Download the slides [[PDF](https://www.sdabocconi.it/upl/entities/attachment/Mining%20the%20Moon%20for%20profit/SEE_Lab_Mining_the_Moon_for_Profit.pdf)]

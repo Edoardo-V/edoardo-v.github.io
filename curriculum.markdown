@@ -2,6 +2,7 @@
 layout: default
 title: Curriculum
 permalink: /cv/
+order: 4
 ---
 
 ### Bio

@@ -2,6 +2,7 @@
 layout: default
 title: Publications
 permalink: /publications/
+order: 2
 ---
 
 {% for paper in site.mypublications %}
