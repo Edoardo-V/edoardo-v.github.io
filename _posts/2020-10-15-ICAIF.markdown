@@ -4,7 +4,7 @@ title:  "ICAIF conference"
 date:   2020-10-15
 ---
 
-International Conference on AI in Finance, 14-16 October 2020, [Website]](https://ai-finance.org/) 
+International Conference on AI in Finance, 14-16 October 2020, [Website](https://ai-finance.org/).
 
 Here two of my papers were accepted, I also presented both research works, you can find the slides below.
 
