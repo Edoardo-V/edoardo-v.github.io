@@ -5,7 +5,7 @@ name: Publications
 Here you can find what my publications, the latest ones stem from my Ph.D. research, while the first comes from the Alpbach Summer School, to which I participated several years ago. 
 
 
-+ Edoardo Vittori, Martino Bernasconi, Francesco Trovò, Marcello Restelli. *Dealing with Transaction Costs in Portfolio Optimization: Online Gradient Descent with Momentum*, ICAIF 2020
++ Edoardo Vittori, Martino Bernasconi, Francesco Trovò, Marcello Restelli. *Dealing with Transaction Costs in Portfolio Optimization: Online Gradient Descent with Momentum*, ICAIF 2020.
 [[PDF]({{ site.url }}/downloads/OGDM.pdf)]
 
 + Edoardo Vittori, Michele Trapletti, Marcello Restelli. *Option Hedging with Risk Averse Reinforcement Learning*, ICAIF 2020.
