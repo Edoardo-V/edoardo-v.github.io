@@ -9,4 +9,4 @@ I presented a work done in collaboration with the [Space Economy Evolution Lab](
 The work consists in a both tecnical and economic analysis with the objective of understanding if it makes sense from a business perspective for a private company to enter the domain of in space transportation, storage and distribution systems.
 
 
-Download the slides [[PDF]({{site.url}}/downloads/Venezia_OGDM_talk.pdf)]
+Download the slides [[PDF]({{site.url}}/downloads/In_orbit_refuelling_Bocconi_Sapienza.pdf)]
