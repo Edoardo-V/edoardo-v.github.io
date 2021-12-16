@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "ICAIF 2021 conference"
+date:   2021-11-04
+---
+
+International Conference on AI in Finance, 4-5 November 2021, [Website](https://ai-finance.org/).
+
+Here two of my papers were accepted, I presented the one on MCTS.
+
+*Monte Carlo Tree Search for Trading and Hedging*\\
+Download the slides [[PDF]({{site.url}}/downloads/ICAIF_MCTS_Presentation.pdf)]

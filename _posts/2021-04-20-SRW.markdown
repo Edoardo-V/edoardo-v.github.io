@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "In Orbit Refueling: Technical and Economic Feasibility of Moon-Mined Propellants"
+title:  "Space Resources Week"
 date:   2021-04-20
 ---
+
 Space Resources Week [link](https://www.spaceresourcesweek.lu/space-resources-week-2021)
 
 I presented a work done in collaboration with the [Space Economy Evolution Lab](https://www.sdabocconi.it/en/faculty-research/labs-and-research-centers/see-lab-space-economy-evolution) in SDA Bocconi and the Sapienza University of Rome.

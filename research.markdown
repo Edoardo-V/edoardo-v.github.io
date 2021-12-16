@@ -17,5 +17,10 @@ Reinforcement learning (RL) is one of the main areas of machine learning, the ot
 Instead the applications in which I am mainly focusing on are:
 + trading (the actions are buy, sell, stay)
 + portfolio optimization (finding the optimal portfolio allocations)
++ market making (continuously pricing an asset to offer liquidity)
++ optimal execution (optimally splitting an order to reduce market impact)
 + option hedging (can we beat the standard delta hedge?)
-+ DVA hedging (related to what I do at [work](../work/))
+
+I will link my Ph.D. dissertation soon!
+
+<!-- + DVA hedging (related to what I do at [work](../work/)) -->

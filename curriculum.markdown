@@ -7,7 +7,7 @@ order: 4
 
 ### Bio
 
-I am concurrently a Ph.D. student at Politecnico di Milano and XVA Trader in Banca IMI. I graduated in 2016 with a Master Degree in Mathematics from Imperial College London obtaining a First, and in 2018 obtained an Executive Master in Finance from SDA Bocconi.
+I am concurrently a Ph.D. student at Politecnico di Milano and Vice President at Intesa Sanpaolo in the XVA Management desk. I graduated in 2016 with a Master Degree in Mathematics from Imperial College London obtaining a First, and in 2018 obtained an Executive Master in Finance from SDA Bocconi.
 
 ### Curriculum
 

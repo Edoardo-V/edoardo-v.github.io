@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ICAIF conference"
+title:  "ICAIF 2020 conference"
 date:   2020-10-15
 ---
 
