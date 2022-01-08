@@ -5,5 +5,5 @@ date:   2020-09-18
 ---
 Mathematical and Statistical Methods for Actuarial Sciences and Finance, 18-23 September 2020 [link](https://www.unive.it/pag/40972/)
 
-It was supposed to be in Easter 2020, then the pandemic happened and it was posponed and tranformed to an online version in September. I presented the work on Risk Averse Reinforcement Learning:*Trust Region Volatility Optimization*.\\
+Below you can find the work on Risk Averse Reinforcement Learning:*Trust Region Volatility Optimization*.\\
 Download the slides [[PDF]({{site.url}}/downloads/EMAF_TRVO_talk.pdf)]
