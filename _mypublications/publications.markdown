@@ -5,10 +5,10 @@ name: Publications
 Here you can find what my publications, the latest ones stem from my Ph.D. research, while the first comes from the Alpbach Summer School, to which I participated several years ago. 
 
 + Edoardo Vittori, Amarildo Likmeta, Marcello Restelli. *MCTS for Trading and Hedging*, International Conference on AI for Finance, 2021.
-[[PDF]({{ site.url }}/downloads/ICAIF_FX.pdf)]
+[[PDF]({{ site.url }}/downloads/ICAIF_MCTS.pdf)]
 
 + Antonio Riva, Lorenzo Bisi, Pierre Liotet, Luca Sabbioni, Edoardo Vittori, Marco Pinciroli, Michele Trapletti, Marcello Restelli. *Learning FX Trading Strategies with FQI and Persistent Actions*, International Conference on AI for Finance, 2021.
-[[PDF]({{ site.url }}/downloads/ICAIF_MCTS.pdf)]
+[[PDF]({{ site.url }}/downloads/ICAIF_FX.pdf)]
 
 + Martino Bernasconi De Luca, Edoardo Vittori, Francesco Trovò, Marcello Restelli. *Conservative Online Convex Optimization*, European Conference on Machine Learning, 2021. 
 [[PDF](https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_271.pdf)]
