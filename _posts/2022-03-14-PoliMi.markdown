@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Ph.D. Dissertation Defence"
+date:   2022-03-14
+---
+
+I obtained the Ph.D. with a thesis entitled *Augmenting Traders with Learning Machines.*\\
+The thesis can be found at this [link](https://www.politesi.polimi.it/bitstream/10589/182998/1/Edoardo_Vittori_PhD_Dissertation.pdf), while the slides used for the defence can be found [here]({{site.url}}/downloads/PhD_Thesis_Defense.pdf).
+
+**Abstract**
+
+The financial markets are comprised of several participants with diverse roles and objectives. Asset management firms optimize the portfolios of pension funds, institutions and private individuals; market makers offer liquidity by continuously pricing and hedging their risks; proprietary traders invest their own capital with sophisticated methodologies. 
+The approaches adopted by these actors are either manual or expert systems that rely on the experience of traders, and thus are subject to human bias and error.
+
+This dissertation proposes innovative techniques to address the limitations of the current trading strategies.
+Specifically, we explore the use of algorithms capable of autonomously learning the aforementioned sequential decision-making processes.
+The development of these algorithms entails a careful reproduction of realistic environments, as well as the observance of trading objectives, i.e., maximizing returns while maintaining a low risk profile and minimizing costs. 
+These algorithms all share a common core structure, that is making a trading decision conditional on the current state of the financial markets.
+
+Our main theoretical and algorithmic contributions include the extension of the online learning field, as we introduce transaction costs and conservativeness in online portfolio optimization, and the enhancement of Monte Carlo Tree Search algorithms to account for the stochasticity and high noise typical of the financial markets.
+In terms of experimental contributions, we apply Reinforcement Learning to learn profitable quantitative trading strategies and option hedging approaches superior to the standard Black & Scholes hedge.
+We also find that Reinforcement Learning combined with Mean Field Games enables the development of competitive bond market making strategies.
+Finally, we demonstrate that dynamic optimal execution methods can be learned through Thompson Sampling with Reinforcement Learning.
+
+The use of such advanced techniques in a production environment may allow the achievement of a competitive advantage that will translate into economical benefits.

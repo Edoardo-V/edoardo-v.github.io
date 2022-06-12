@@ -7,7 +7,7 @@ order: 4
 
 ### Bio
 
-I am concurrently a Ph.D. student at Politecnico di Milano and Vice President at Intesa Sanpaolo in the XVA Management desk. I graduated in 2016 with a Master Degree in Mathematics from Imperial College London obtaining a First, and in 2018 obtained an Executive Master in Finance from SDA Bocconi.
+I am Vice President at Intesa Sanpaolo in the XVA Management desk. I obtained a Ph.D. in Reinforcement Learning for algorithmic trading from Politecnico di Milano in 2022. In 2018 I obtained an Executive Master in Finance from SDA Bocconi and I graduated in 2016 with a Master Degree in Mathematics from Imperial College London obtaining a First.
 
 ### Curriculum
 
