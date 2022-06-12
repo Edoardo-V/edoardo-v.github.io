@@ -15,12 +15,12 @@ Since then my research focus has shifted to reinforcement learning, and with app
 Reinforcement learning (RL) is one of the main areas of machine learning, the other two are supervised and unsupervised. What happens in RL is an artificial agent (a computer) is learning to achieve the objective you assign it by interacting with the environment, you can imagine it like trying to teach something to a dog, using rewards and penalties. [This](http://incompleteideas.net/book/the-book.html) is the RL bible in case you're wondering on where to start. If you're a pro, and you're curious on my work, checkout out my [publications](../publications).
 
 Instead the applications in which I am mainly focusing on are:
-+ trading (the actions are buy, sell, flat)
++ quantitative trading (learning alpha generating strategies with low market correlation)
 + portfolio optimization (finding the optimal multi-period portfolio allocations)
-+ market making (continuously pricing an asset to offer liquidity)
-+ optimal execution (optimally splitting an order to reduce market impact)
++ market making (a dynamic policy which continuously prices an asset)
++ optimal execution (dynamic optimal execution strategy)
 + option hedging (can we beat the standard delta hedge?)
 
-I will link my Ph.D. dissertation soon!
+My Ph.D. dissertation can be found [here](https://www.politesi.polimi.it/bitstream/10589/182998/1/Edoardo_Vittori_PhD_Dissertation.pdf)
 
 <!-- + DVA hedging (related to what I do at [work](../work/)) -->

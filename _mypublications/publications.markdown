@@ -4,6 +4,9 @@ name: Publications
 
 Here you can find what my publications, the latest ones stem from my Ph.D. research, while the first comes from the Alpbach Summer School, to which I participated several years ago. 
 
++ Edoardo Vittori. *Augmenting Traders with Learning Machines*, PhD dissertation, 2022.
+[[PDF](https://www.politesi.polimi.it/bitstream/10589/182998/1/Edoardo_Vittori_PhD_Dissertation.pdf)]
+
 + Edoardo Vittori, Amarildo Likmeta, Marcello Restelli. *MCTS for Trading and Hedging*, International Conference on AI for Finance, 2021.
 [[PDF]({{ site.url }}/downloads/ICAIF_MCTS.pdf)]
 
