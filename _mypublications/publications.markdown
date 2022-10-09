@@ -2,7 +2,7 @@
 name: Publications
 ---
 
-Here you can find the publications I participated on:
+Here you can find my publications:
 
 + Edoardo Vittori. *Augmenting Traders with Learning Machines*, PhD dissertation, 2022.
 [[PDF](https://www.politesi.polimi.it/bitstream/10589/182998/1/Edoardo_Vittori_PhD_Dissertation.pdf)]
