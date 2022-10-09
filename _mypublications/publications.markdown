@@ -2,25 +2,34 @@
 name: Publications
 ---
 
-Here you can find what my publications, the latest ones stem from my Ph.D. research, while the first comes from the Alpbach Summer School, to which I participated several years ago. 
+Here you can find the publications I participated on:
 
 + Edoardo Vittori. *Augmenting Traders with Learning Machines*, PhD dissertation, 2022.
 [[PDF](https://www.politesi.polimi.it/bitstream/10589/182998/1/Edoardo_Vittori_PhD_Dissertation.pdf)]
 
++ Martino Bernasconi De Luca, Stefano Martino, Edoardo Vittori, Francesco Trovò, Marcello Restelli. *Dark-Pool Smart Order Routing: a Combinatorial Multi-armed Bandit Approach*, International Conference on AI for Finance, 2022.
+[[PDF]({{ site.url }}/downloads/ICAIF_dark.pdf)]
+
++ Antonio Riva, Lorenzo Bisi, Pierre Liotet, Luca Sabbioni, Edoardo Vittori, Marco Pinciroli, Michele Trapletti, Marcello Restelli. *Addressing Non-Stationarity in FX Trading with Online Model Selection of Offline RL Experts*, International Conference on AI for Finance, 2022.
+[[PDF]({{ site.url }}/downloads/ICAIF_expert_fx.pdf)]
+
++ Martino Bernasconi De Luca, Edoardo Vittori, Francesco Trovò, Marcello Restelli. *Dealer Markets: a Reinforcement Learning Mean Field Game Approach*, SSRN, 2022.
+[[PDF]({{ site.url }}/downloads/SSRN_dealers.pdf)][[Link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4167296)]
+
 + Edoardo Vittori, Amarildo Likmeta, Marcello Restelli. *MCTS for Trading and Hedging*, International Conference on AI for Finance, 2021.
-[[PDF]({{ site.url }}/downloads/ICAIF_MCTS.pdf)]
+[[PDF]({{ site.url }}/downloads/ICAIF_MCTS.pdf)][[Link](https://dl.acm.org/doi/abs/10.1145/3490354.3494402)]
 
 + Antonio Riva, Lorenzo Bisi, Pierre Liotet, Luca Sabbioni, Edoardo Vittori, Marco Pinciroli, Michele Trapletti, Marcello Restelli. *Learning FX Trading Strategies with FQI and Persistent Actions*, International Conference on AI for Finance, 2021.
-[[PDF]({{ site.url }}/downloads/ICAIF_FX.pdf)]
+[[PDF]({{ site.url }}/downloads/ICAIF_FX.pdf)][[Link](https://dl.acm.org/doi/abs/10.1145/3490354.3494403)] 
 
 + Martino Bernasconi De Luca, Edoardo Vittori, Francesco Trovò, Marcello Restelli. *Conservative Online Convex Optimization*, European Conference on Machine Learning, 2021. 
 [[PDF](https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_271.pdf)]
 
 + Edoardo Vittori, Martino Bernasconi De Luca, Francesco Trovò, Marcello Restelli. *Dealing with Transaction Costs in Portfolio Optimization: Online Gradient Descent with Momentum*, International Conference on AI for Finance, 2020.
-[[PDF]({{ site.url }}/downloads/OGDM.pdf)]
+[[PDF]({{ site.url }}/downloads/OGDM.pdf)][[Link](https://dl.acm.org/doi/abs/10.1145/3383455.3422531)] 
 
 + Edoardo Vittori, Michele Trapletti, Marcello Restelli. *Option Hedging with Risk Averse Reinforcement Learning*, International Conference on AI for Finance, 2020.
-[[PDF](https://arxiv.org/pdf/2010.12245)]
+[[PDF](https://arxiv.org/pdf/2010.12245)][[Link](https://dl.acm.org/doi/abs/10.1145/3383455.3422532)] 
 
 + Lorenzo Bisi, Luca Sabbioni, Edoardo Vittori, Matteo Papini, Marcello Restelli. *Risk-Averse Trust Region Optimization for Reward-Volatility Reduction*, International Joint Conference on Artificial Intelligence, 2020.
 [[PDF](https://www.ijcai.org/Proceedings/2020/0632.pdf)]

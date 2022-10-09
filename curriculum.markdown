@@ -15,6 +15,13 @@ You can [download my CV]({{ site.url }}/downloads/CV_EV.pdf)
 
 Or check out my [LinkedIn profile](https://www.linkedin.com/in/edoardo-vittori/)
 
+### Research
+
+You can find my research [here](../publications)\\
+On my [google scholar profile](https://scholar.google.it/citations?user=gVKVhiwAAAAJ&hl=en)\\
+[Research Gate](https://www.researchgate.net/profile/Edoardo-Vittori/research)\\
+[ACM](https://dl.acm.org/profile/99659892125)
+
 ### Contacts
 
 Send me an [email ](mailto:edoardo.vittori@polimi.it) 
