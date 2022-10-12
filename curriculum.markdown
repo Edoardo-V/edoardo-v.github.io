@@ -19,7 +19,7 @@ Or check out my [LinkedIn profile](https://www.linkedin.com/in/edoardo-vittori/)
 
 You can find my research [here](../publications)\\
 On my [google scholar profile](https://scholar.google.it/citations?user=gVKVhiwAAAAJ&hl=en)\\
-[Research Gate](https://www.researchgate.net/profile/Edoardo-Vittori/research)\\
+[Research Gate](https://www.researchgate.net/profile/Edoardo-Vittori)\\
 [ACM](https://dl.acm.org/profile/99659892125)
 
 ### Contacts
