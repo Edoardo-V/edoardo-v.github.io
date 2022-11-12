@@ -4,8 +4,6 @@ title:  "Machine Learning for Finance conference"
 date:   2020-12-18
 ---
 
-Machine Learning for Finance, 18 December 2020, [Website](https://www.unive.it/data/agenda/3/45054).
+At the conference *Machine Learning for Finance*, 18 December 2020, held by the University of Venenzia ([website](https://www.unive.it/data/agenda/3/45054)), I had the opportunity of presenting my work on *Online Portfolio Optimization: Online Gradient Descent with Momentum*.
 
-Below you can find my presentation about *Online Portfolio Optimization*, specifically on *Online Gradient Descent with Momentum*.
-
-Download the slides [[PDF]({{site.url}}/downloads/Venezia_OGDM_talk.pdf)].
+Download the slides [[PDF]({{site.url}}/downloads/Presentation_2020_UNIVE_OGDM.pdf)].

@@ -27,7 +27,7 @@ Here you can find my publications:
 [[PDF](https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_271.pdf)]
 
 + Edoardo Vittori, Martino Bernasconi De Luca, Francesco Trovò, Marcello Restelli. *Dealing with Transaction Costs in Portfolio Optimization: Online Gradient Descent with Momentum*, International Conference on AI for Finance, 2020.
-[[PDF]({{ site.url }}/downloads/OGDM.pdf)][[Link](https://dl.acm.org/doi/abs/10.1145/3383455.3422531)] 
+[[PDF]({{ site.url }}/downloads/2020_Vittori_OGDM.pdf)][[Link](https://dl.acm.org/doi/abs/10.1145/3383455.3422531)] 
 
 + Edoardo Vittori, Michele Trapletti, Marcello Restelli. *Option Hedging with Risk Averse Reinforcement Learning*, International Conference on AI for Finance, 2020.
 [[PDF](https://arxiv.org/pdf/2010.12245)][[Link](https://dl.acm.org/doi/abs/10.1145/3383455.3422532)] 
