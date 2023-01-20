@@ -3,7 +3,7 @@ layout: home
 ---
 
 
-<img src="/images/me.jpg" width="200" align="right"  HSPACE="60" vspace="10" />
+<img src="/images/me_new.jpg" width="200" align="right"  HSPACE="60" vspace="10" />
 
 Hello, this is my webpage.
 <br/><br/>

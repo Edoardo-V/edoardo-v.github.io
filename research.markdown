@@ -21,6 +21,6 @@ Instead the applications in which I am mainly focusing on are:
 + optimal execution (dynamic optimal execution strategy)
 + option hedging (can we beat the standard delta hedge?)
 
-My Ph.D. dissertation can be found [here](https://www.politesi.polimi.it/bitstream/10589/182998/1/Edoardo_Vittori_PhD_Dissertation.pdf)
+My Ph.D. dissertation can be found [here](https://www.politesi.polimi.it/bitstream/10589/182998/1/Edoardo_Vittori_PhD_Dissertation.pdf).
 
 <!-- + DVA hedging (related to what I do at [work](../work/)) -->
