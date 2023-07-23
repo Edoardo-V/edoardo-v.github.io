@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Machine Learning for Finance conference"
+title:  "Machine Learning for Finance conference - Ca' Foscari, Venice "
 date:   2020-12-18
 ---
 

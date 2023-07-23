@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "EMFCampus 2022 seminar"
+title:  "EMFCampus 2022 seminar - SDA Bocconi"
 date:   2022-11-09
 ---
 

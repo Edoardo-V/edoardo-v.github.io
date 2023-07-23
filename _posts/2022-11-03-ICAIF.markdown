@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ICAIF 2022 conference"
+title:  "ICAIF 2022 conference - New York"
 date:   2022-11-03
 ---
 
