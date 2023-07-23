@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="en">
+<head><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
@@ -20,6 +21,7 @@
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Edoardo Vittori" />
 </head>
+</head>
 <body><header class="site-header">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/">Edoardo Vittori</a><nav class="site-nav">
@@ -38,17 +40,112 @@
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <div class="home"><p><img src="/images/me_new.jpg" width="200" align="right" hspace="60" vspace="10" /></p>
+    <div class="wrapper">
+      <style>
+  .home {
+    padding: 20px;
+  }
 
-<p>Hello, this is my webpage.
-<br /><br /></p>
+  .home h1.page-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
-<p>Following this post you can find the most recent events and conferences I have participated in. <a href="./cv/">Here</a> you can find information on my curriculum. If you are interested in my papers, you can find them at this <a href="./publications/">page</a>. Finally I have included a description on my <a href="./research/">research interests</a>.
-<br /><br /></p>
+  .home .post-list-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
+  .home .post-list {
+    list-style: none;
+    padding: 0;
+    margin: 40px 0; /* Adjusted margin between the horizontal lines and the blog posts */
+  }
 
+  .home .post-list li {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
 
+  .home .post-list li:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .home .post-meta {
+    font-size: 14px;
+    color: #999;
+    float: right;
+  }
+
+  .home .post-link {
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .home .post-link:hover {
+    color: #007bff;
+  }
+
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .home .post-link {
+      font-size: 18px;
+    }
+  }
+
+  /* Custom Styles */
+  .home .intro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .home .intro img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .home .intro-text {
+    flex: 1;
+  }
+
+  .home .post-separator {
+    margin: 40px 0;
+    border-bottom: 2px solid #ccc;
+  }
+
+  .home .section-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .home .post-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px; /* Adjusted margin between section title and blog posts */
+  }
+</style>
+
+<div class="home"><div class="intro">
+    <img src="/images/me_new.jpg" alt="Profile Picture" />
+    <div class="intro-text">
+      <p>Hello, this is my webpage.</p>
+      <p>Following this post, you can find the most recent events and conferences I have participated in. <a href="./cv/">Here</a> you can find information on my curriculum. If you are interested in my papers, you can find them at this <a href="./publications/">page</a>. Finally, I have included a description of my <a href="./research/">research interests</a>.</p>
+    </div>
+  </div>
+
+  <div class="post-separator"></div> <!-- Line delimitating the beginning of the blog posts -->
+
+  <h2 class="section-title">Presentations</h2> <!-- Section title "Blog Posts" -->
 
   <ul class="post-list"><li>
         <span class="post-meta">Nov 9, 2022</span>
@@ -114,8 +211,8 @@
 
     </div>
 
-      </div>
-    </main><footer class="site-footer h-card">
+    </div>
+  </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>
 
   <div class="wrapper">
@@ -145,8 +242,6 @@
   </div>
 
 </footer>
-</body>
-
-</html>
-
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>
