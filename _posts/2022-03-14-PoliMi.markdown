@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Ph.D. Dissertation Defence - Politecnico di Milano"
+title:  "Ph.D. Dissertation Defense - Politecnico di Milano"
 date:   2022-03-14
 ---
 
 I obtained the Ph.D. with a thesis entitled *Augmenting Traders with Learning Machines.*\\
-The thesis can be found at this [link](https://www.politesi.polimi.it/bitstream/10589/182998/1/Edoardo_Vittori_PhD_Dissertation.pdf), while the slides used for the defence can be found [here]({{site.url}}/downloads/PhD_Thesis_Defense.pdf).
+The thesis can be found at this [link](https://www.politesi.polimi.it/bitstream/10589/182998/1/Edoardo_Vittori_PhD_Dissertation.pdf), while the slides used for the defense can be found [here]({{site.url}}/downloads/PhD_Thesis_Defense.pdf).
 
 **Abstract**
 
