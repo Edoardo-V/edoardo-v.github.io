@@ -7,50 +7,29 @@ layout: default
     padding: 20px;
   }
 
-  .home h1.page-heading {
-    text-align: center;
-    margin-bottom: 20px;
-  }
 
-  .home .post-list-heading {
-    text-align: center;
-    margin-bottom: 20px;
-  }
 
-  .home .post-list {
-    list-style: none;
-    padding: 0;
-    margin: 40px 0; /* Adjusted margin between the horizontal lines and the blog posts */
-  }
-
-  .home .post-list li {
+  .home .post-list li { /* Adjusted margin between blog posts */
     margin-bottom: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #ccc;
   }
 
-  .home .post-list li:last-child {
-    margin-bottom: 0;
-    border-bottom: none;
-    padding-bottom: 0;
-  }
 
-  .home .post-meta {
+
+  .home .post-meta { /* Adjusted font size and color of post date */
     font-size: 14px;
     color: #999;
     float: right;
   }
 
-  .home .post-link {
+  .home .post-link { /* Adjusted font size and color of post title */
     font-size: 20px;
     color: #333;
     text-decoration: none;
     transition: color 0.2s;
   }
 
-  .home .post-link:hover {
-    color: #007bff;
-  }
 
   /* Responsive Styles */
   @media screen and (max-width: 768px) {
@@ -59,31 +38,32 @@ layout: default
     }
   }
 
-  /* Custom Styles */
   .home .intro {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+  /* Adjusted margin between intro image and text */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   }
 
-  .home .intro img {
+  @media screen and (min-width: 768px) {
+  .home .intro img {  /* Adjusted size of intro image */
     max-width: 200px;
     width: 100%;
     height: auto;
     margin-right: 20px;
     margin-bottom: 20px;
-  }
+  }}
 
   .home .intro-text {
     flex: 1;
   }
 
-  .home .post-separator {
+  .home .post-separator { /* Adjusted margin between blog posts and section title */
     margin: 40px 0;
     border-bottom: 2px solid #ccc;
   }
 
-  .home .section-title {
+  .home .section-title {  
     text-align: center;
     font-size: 24px;
     margin-bottom: 20px;
