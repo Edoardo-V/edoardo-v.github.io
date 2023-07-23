@@ -5,15 +5,19 @@ name: Publications
 Here you can find my publications:
 
 
++ Francesco Mandelli, Marco Pinciroli, Michele Trapletti, Edoardo Vittori. *Reinforcement Learning for Credit Index Option Hedging*, Arxiv, 2023.
+[[PDF](https://arxiv.org/pdf/2307.09844.pdf)]
+
+
++ Andrea Sommariva, Paolo Gaudenzi, Mattia Pianorsi, Michele Pasquali, Edoardo Vittori, Marco Eugeni, Matilde Italiano et al. *Preliminary analyses on technical and economic viability of moon-mined propellant for on-orbit refueling*, Acta Astronautica, 2023.[[PDF](https://reader.elsevier.com/reader/sd/pii/S0094576523000061?token=F1F1B8800F00398247060D4F34D042063DFD53A759F4DFE6B9651C2CA02C4DEC0EC43368B7ADCB804D44E25ED0658BFD&originRegion=eu-west-1&originCreation=20230120084326)][[Link](https://www.sciencedirect.com/science/article/pii/S0094576523000061?dgcid=author)]
+
 
 + Edoardo Vittori. *Augmenting Traders with Learning Machines*, PhD dissertation, 2022.
 [[PDF](https://www.politesi.polimi.it/bitstream/10589/182998/1/Edoardo_Vittori_PhD_Dissertation.pdf)]
 
-+ Andrea Sommariva, Paolo Gaudenzi, Mattia Pianorsi, Michele Pasquali, Edoardo Vittori, Marco Eugeni, Matilde Italiano et al. *Preliminary analyses on technical and economic viability of moon-mined propellant for on-orbit refueling*, Acta Astronautica, 2023.[[PDF](https://reader.elsevier.com/reader/sd/pii/S0094576523000061?token=F1F1B8800F00398247060D4F34D042063DFD53A759F4DFE6B9651C2CA02C4DEC0EC43368B7ADCB804D44E25ED0658BFD&originRegion=eu-west-1&originCreation=20230120084326)][[Link](https://www.sciencedirect.com/science/article/pii/S0094576523000061?dgcid=author)]
 
 + Martino Bernasconi De Luca, Stefano Martino, Edoardo Vittori, Francesco Trovò, Marcello Restelli. *Dark-Pool Smart Order Routing: a Combinatorial Multi-armed Bandit Approach*, International Conference on AI for Finance, 2022.
 [[PDF]({{ site.url }}/downloads/2022_Martino_dark.pdf)][[Link](https://dl.acm.org/doi/abs/10.1145/3533271.3561728)]
-
 
 + Antonio Riva, Lorenzo Bisi, Pierre Liotet, Luca Sabbioni, Edoardo Vittori, Marco Pinciroli, Michele Trapletti, Marcello Restelli. *Addressing Non-Stationarity in FX Trading with Online Model Selection of Offline RL Experts*, International Conference on AI for Finance, 2022.
 [[PDF]({{ site.url }}/downloads/2022_Riva_expertfx.pdf)][[Link](https://dl.acm.org/doi/abs/10.1145/3533271.3561780)]
