@@ -11,7 +11,7 @@ I am Vice President at Intesa Sanpaolo in the CVA Management and A.I. Investment
 
 ### Curriculum
 
-You can [download my CV]({{ site.url }}/downloads/CV_EV.pdf)
+You can [download my CV]({{ site.url }}/downloads/Edoardo_Vittori_CV.pdf)
 
 Or check out my [LinkedIn profile](https://www.linkedin.com/in/edoardo-vittori/)
 
