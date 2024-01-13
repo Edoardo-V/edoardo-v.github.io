@@ -5,7 +5,7 @@ name: Publications
 Here you can find my publications:
 
 + Roberto Daluiso, Marco Pinciroli, Michele Trapletti, Edoardo Vittori. *CVA Hedging with Reinforcement Learning*, International Conference on AI for Finance, 2023.
-[[PDF](https://dl.acm.org/doi/pdf/10.1145/3604237.3626852)][[Link](https://dl.acm.org/doi/10.1145/3604237.3626852)] <br>
+[[PDF]({{ site.url }}/downloads/2023_Daluiso_CVA.pdf)][[Link](https://dl.acm.org/doi/10.1145/3604237.3626852)] <br>
 *Awarded Runner-up Best Industrial Paper Award*
 
 
