@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "AAAI 2024 conference Bridge"
+date:   2024-02-20
+---
+
+I was invited to hold a seminar at the AAAI 2024 conference Bridge - [AI for Financial Services](https://sites.google.com/view/aaai24-ai-fin), on the topic of *Machine Learning in Financial Markets.*
+This seminar was held together with Matteo Rampazzo, a colleague from Epsilon SGR. 
+We started with a brief introduction on the uses of algorithms in the financial markets followed by an overview of the tecnical machine learning tools. We then had three main sections, the first on quantitative trading, then quantitative investing and finally on optimal execution.
+
+Download the slides [[PDF]({{site.url}}/downloads/Presentation_2024_AAAI_bridge_Seminar.pdf)]
+
+
+![Alt Text](/images/AAAI_image.jpeg)
