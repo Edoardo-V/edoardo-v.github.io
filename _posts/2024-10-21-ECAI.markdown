@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Quantitative Trading with Machine Learning - ECAI 2024"
+date:   2024-10-21
+---
+
+I presented at the Workshop on AI in Finance at ECAI 2024 in Santiago de Compostela, Spain on October 19, 2024. This workshop brought together researchers and practitioners from both industry and academia to discuss recent advancements in AI applications for financial services.
+
+My presentation focused on quantitative trading with machine learning. I covered a range of topics, starting with classical strategies such as momentum, mean reversion, and seasonality. Then, I delved into more advanced techniques, exploring the application of reinforcement learning in trading. Finally, I discussed higher frequency trading strategies and their implementation with futures contracts.
+
+You can find more details about the workshop and its program on the [official website](https://sites.google.com/view/ecai24-ai-fin).
+
+Download the slides [[PDF]({{site.url}}/downloads/Presentation_2024_ECAI.pdf)]
