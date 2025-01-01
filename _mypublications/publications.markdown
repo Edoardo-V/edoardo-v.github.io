@@ -4,6 +4,16 @@ name: Publications
 
 Here you can find my publications:
 
++ Yadh Hafsi, Edoardo Vittori. *Optimal Execution with Reinforcement Learning*, arXiv, 2024.
+[[PDF](https://arxiv.org/pdf/2411.06389)]
+
++ Vito Alessandro Monaco, Antonio Riva, Luca Sabbioni, Lorenzo Bisi, Edoardo Vittori, Marco Pinciroli, Michele Trapletti, Marcello Restelli. *Exploiting Risk-Aversion and Size-dependent fees in FX Trading with Fitted Natural Actor-Critic*, arXiv, 2024.
+[[PDF](https://arxiv.org/pdf/2410.23294)]
+
++ Christophe Bosquillon, Lari Cujko, Gidon Gautel, Derek Webber, Andrea Conconi, Mattia Pianorsi, Simonetta Di Pippo, Edoardo Vittori., *Is the Lunar Economy Solely for the Space Industry? Opportunities for Nonspace Companies in Lunar Infrastructure Leveraging Technological Synergies*, New Space, 2024.
+[[Link](https://www.liebertpub.com/doi/abs/10.1089/space.2023.0057)]
+
+
 + Roberto Daluiso, Marco Pinciroli, Michele Trapletti, Edoardo Vittori. *CVA Hedging with Reinforcement Learning*, International Conference on AI for Finance, 2023.
 [[PDF]({{ site.url }}/downloads/2023_Daluiso_CVA.pdf)][[Link](https://dl.acm.org/doi/10.1145/3604237.3626852)] <br>
 *Awarded Runner-up Best Industrial Paper Award*
