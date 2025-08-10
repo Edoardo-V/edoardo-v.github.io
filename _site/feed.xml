@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-03-07T11:53:36+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Edoardo Vittori</title><subtitle>Machine Learning Algo-trader and Ph.D. in Reinforcement Learning</subtitle><author><name>{&quot;email&quot;=&gt;&quot;edoardo.vittori@polimi.it&quot;}</name><email>edoardo.vittori@polimi.it</email></author><entry><title type="html">Optimal Execution via RL - International Fintech Conference 2025</title><link href="http://localhost:4000/2025/01/31/PG_Fintech.html" rel="alternate" type="text/html" title="Optimal Execution via RL - International Fintech Conference 2025" /><published>2025-01-31T00:00:00+01:00</published><updated>2025-01-31T00:00:00+01:00</updated><id>http://localhost:4000/2025/01/31/PG_Fintech</id><content type="html" xml:base="http://localhost:4000/2025/01/31/PG_Fintech.html"><![CDATA[<p>I presented at the International Fintech Research Conference on January 31, 2025, discussing Optimal Execution via Reinforcement Learning in Agent-Based Simulations.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-10T17:53:50+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Edoardo Vittori</title><subtitle>Machine Learning Algo-trader and Ph.D. in Reinforcement Learning</subtitle><author><name>{&quot;email&quot;=&gt;&quot;edoardo.vittori@polimi.it&quot;}</name><email>edoardo.vittori@polimi.it</email></author><entry><title type="html">Quant Finance - HEC Fintech Summer School</title><link href="http://localhost:4000/2025/07/04/HEC_Fintech.html" rel="alternate" type="text/html" title="Quant Finance - HEC Fintech Summer School" /><published>2025-07-04T00:00:00+02:00</published><updated>2025-07-04T00:00:00+02:00</updated><id>http://localhost:4000/2025/07/04/HEC_Fintech</id><content type="html" xml:base="http://localhost:4000/2025/07/04/HEC_Fintech.html"><![CDATA[<p>I held a course at the <a href="https://www.hec.edu/en/summer-school/summer-programs/fintech-future-finance">HEC Paris FinTech Summer School</a> entitled <em>Quant Finance</em>. This was part of the “FinTech: The Future of Finance” program (June 30 - July 11, 2025), where I taught on July 4th, 2025. The course covered comprehensive topics across four main areas:</p>
+
+<p><strong>Financial Markets</strong></p>
+<ul>
+  <li>Market Making</li>
+  <li>Execution</li>
+  <li>Asset Managers and Hedge Funds</li>
+  <li>Prop Traders</li>
+  <li>Quants</li>
+</ul>
+
+<p><strong>Financial Engineering</strong></p>
+<ul>
+  <li>Stochastic processes</li>
+  <li>Option pricing</li>
+  <li>MC simulations</li>
+  <li>Execution algorithms</li>
+</ul>
+
+<p><strong>Quant Toolkit</strong></p>
+<ul>
+  <li>Supervised Learning</li>
+  <li>Unsupervised Learning</li>
+  <li>Reinforcement Learning</li>
+  <li>Deep Learning</li>
+  <li>Generative AI</li>
+</ul>
+
+<p><strong>Quant Research</strong></p>
+<ul>
+  <li>Classical systematic strategies</li>
+  <li>Learning an trading strategy with RL</li>
+  <li>Intraday trading with ML</li>
+  <li>Cross sectional momentum with LLMs</li>
+</ul>
+
+<p>Download the slides [<a href="http://localhost:4000/downloads/Presentation_2025_HEC.pdf">PDF</a>].</p>]]></content><author><name>{&quot;email&quot;=&gt;&quot;edoardo.vittori@polimi.it&quot;}</name><email>edoardo.vittori@polimi.it</email></author><summary type="html"><![CDATA[I held a course at the HEC Paris FinTech Summer School entitled Quant Finance. This was part of the “FinTech: The Future of Finance” program (June 30 - July 11, 2025), where I taught on July 4th, 2025. The course covered comprehensive topics across four main areas:]]></summary></entry><entry><title type="html">Optimal Execution via RL - International Fintech Conference 2025</title><link href="http://localhost:4000/2025/01/31/PG_Fintech.html" rel="alternate" type="text/html" title="Optimal Execution via RL - International Fintech Conference 2025" /><published>2025-01-31T00:00:00+01:00</published><updated>2025-01-31T00:00:00+01:00</updated><id>http://localhost:4000/2025/01/31/PG_Fintech</id><content type="html" xml:base="http://localhost:4000/2025/01/31/PG_Fintech.html"><![CDATA[<p>I presented at the International Fintech Research Conference on January 31, 2025, discussing Optimal Execution via Reinforcement Learning in Agent-Based Simulations.</p>
 
 <p>My presentation focused on optimal execution strategies using reinforcement learning. I introduced the problem definition and its formulation as a Markov Decision Process (MDP), highlighting key aspects such as execution trajectories, market impact, and transaction cost minimization. I then delved into reinforcement learning algorithms, discussing Q-learning and Deep Q-Networks (DQN). Additionally, I explored the role of limit order book (LOB) simulations, comparing various execution policies against traditional approaches like TWAP and passive algorithms. Finally, I presented experimental results showcasing how reinforcement learning can minimize market impact while optimizing execution efficiency.</p>
 
@@ -32,6 +68,4 @@ It was awarded the Runner-up Best Industrial Paper Award!</p>
 
 <p>I had the opportunity of presenting this great work. The slides are available here: [<a href="http://localhost:4000/downloads/Presentation_CVA_hedging.pdf">PDF</a>].</p>]]></content><author><name>{&quot;email&quot;=&gt;&quot;edoardo.vittori@polimi.it&quot;}</name><email>edoardo.vittori@polimi.it</email></author><summary type="html"><![CDATA[This year, with colleagues from Intesa Sanpaolo, we submitted a paper which was accepted to the fourth edition of the International Conference on AI in Finance, 27 November - 29 December 2023 (website). The paper is: CVA Hedging with Reinforcement Learning. It was awarded the Runner-up Best Industrial Paper Award!]]></summary></entry><entry><title type="html">RL for Algorithmic Trading - King’s College</title><link href="http://localhost:4000/2023/03/10/King's.html" rel="alternate" type="text/html" title="RL for Algorithmic Trading - King’s College" /><published>2023-03-10T00:00:00+01:00</published><updated>2023-03-10T00:00:00+01:00</updated><id>http://localhost:4000/2023/03/10/King&apos;s</id><content type="html" xml:base="http://localhost:4000/2023/03/10/King&apos;s.html"><![CDATA[<p>I gave my first 2 hour lecture to the students of the MSc in Computational Finance at King’s College London. The topic was Reinforcement Learning in the Capital Markets. I had the chance to present most of my research, explaining how RL can be used to solve problems in the trading and hedging space.</p>
 
-<p>Download the full slides [<a href="http://localhost:4000/downloads/230310_CFinance_Seminar_EV.pdf">PDF</a>].</p>]]></content><author><name>{&quot;email&quot;=&gt;&quot;edoardo.vittori@polimi.it&quot;}</name><email>edoardo.vittori@polimi.it</email></author><summary type="html"><![CDATA[I gave my first 2 hour lecture to the students of the MSc in Computational Finance at King’s College London. The topic was Reinforcement Learning in the Capital Markets. I had the chance to present most of my research, explaining how RL can be used to solve problems in the trading and hedging space.]]></summary></entry><entry><title type="html">EMFCampus 2022 seminar - SDA Bocconi</title><link href="http://localhost:4000/2022/11/09/EMFCampus.html" rel="alternate" type="text/html" title="EMFCampus 2022 seminar - SDA Bocconi" /><published>2022-11-09T00:00:00+01:00</published><updated>2022-11-09T00:00:00+01:00</updated><id>http://localhost:4000/2022/11/09/EMFCampus</id><content type="html" xml:base="http://localhost:4000/2022/11/09/EMFCampus.html"><![CDATA[<p>On November 11 2022, together with the Cristian Giacomini, the CEO of Modefinance International and Emilio Colombo from Cerved, I held a seminar on <em>Machine Learning Applications in Finance: Credit Scoring, Real Estate and Algorithmic Trading</em>. I started with an introduction to machine learning and then explained two use cases of Algo Trading with RL.</p>
-
-<p>Download the full slides [<a href="http://localhost:4000/downloads/Presentation_2022_EMFCampus_Seminario.pdf">PDF</a>].</p>]]></content><author><name>{&quot;email&quot;=&gt;&quot;edoardo.vittori@polimi.it&quot;}</name><email>edoardo.vittori@polimi.it</email></author><summary type="html"><![CDATA[On November 11 2022, together with the Cristian Giacomini, the CEO of Modefinance International and Emilio Colombo from Cerved, I held a seminar on Machine Learning Applications in Finance: Credit Scoring, Real Estate and Algorithmic Trading. I started with an introduction to machine learning and then explained two use cases of Algo Trading with RL.]]></summary></entry></feed>
+<p>Download the full slides [<a href="http://localhost:4000/downloads/230310_CFinance_Seminar_EV.pdf">PDF</a>].</p>]]></content><author><name>{&quot;email&quot;=&gt;&quot;edoardo.vittori@polimi.it&quot;}</name><email>edoardo.vittori@polimi.it</email></author><summary type="html"><![CDATA[I gave my first 2 hour lecture to the students of the MSc in Computational Finance at King’s College London. The topic was Reinforcement Learning in the Capital Markets. I had the chance to present most of my research, explaining how RL can be used to solve problems in the trading and hedging space.]]></summary></entry></feed>

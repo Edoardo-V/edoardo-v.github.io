@@ -7,7 +7,11 @@ order: 4
 
 ### Bio
 
-I am Vice President at Intesa Sanpaolo in the CVA Management and A.I. Investments desk, focusing on starting-up an algorithmic trading team specializing in machine learning algorithms (deep learning and reinforcement learning). Previsouly I gained experience as an XVA trader in the XVA Management desk of Intesa Sanpaolo. From an academic perspective: I obtained a Ph.D. in Reinforcement Learning for algorithmic trading from Politecnico di Milano in 2022. In 2018 I obtained the Executive Master in Finance from SDA Bocconi and I graduated in 2016 with a Master Degree in Mathematics from Imperial College London obtaining a First.
+I am Vice President at Intesa Sanpaolo in the Cross Asset Systematic Trading desk, eveloping systematic investment strategies powered by advanced machine learning techniques, including deep learning and reinforcement learning. A CAIA charterholder, I combine hands-on trading experience with quantitative research.
+
+Before my current role, I worked as an XVA trader within Intesa Sanpaolo’s XVA Management desk, pricing and hedging derivatives across asset classes, and contributing to quantitative research projects.
+
+Academically, I earned a Ph.D. in Reinforcement Learning for Algorithmic Trading from Politecnico di Milano in 2022, an Executive Master in Finance from SDA Bocconi in 2018, and a Master’s degree in Mathematics from Imperial College London in 2016, obtaining a First.
 
 ### Curriculum
 

@@ -4,6 +4,8 @@ name: Publications
 
 Here you can find my publications:
 
++ Ryan Quek Wei Heng, Edoardo Vittori, Keane Ong, Rui Mao, Erik Cambria, Gianmarco Mengaldo. *Leveraging LLMs for Top-Down Sector Allocation in Automated Trading*, 2025. [[PDF](https://arxiv.org/pdf/2503.09647)]
+
 + Yadh Hafsi, Edoardo Vittori. *Optimal Execution with Reinforcement Learning*, arXiv, 2024.
 [[PDF](https://arxiv.org/pdf/2411.06389)]
 
