@@ -1,8 +1,12 @@
 ---
 layout: post
-title:  "EMAF conference"
+title:  "Trust Region Volatility Optimization"
+type: Presentation
+location: EMAF 2020
 date:   2020-09-18
+category: ai-trading
 ---
 
-At the EMAF 2020 conference on Mathematical and Statistical Methods for Actuarial Sciences and Finance, 18-23 September 2020 ([link](https://www.unive.it/pag/40972/)), I presented my research work on risk-averse reinforcement learning and specifically the algorithm:*Trust Region Volatility Optimization*.\\
+At the **EMAF 2020 conference on Mathematical and Statistical Methods for Actuarial Sciences and Finance**, 18-23 September 2020 ([link](https://www.unive.it/pag/40972/)), I presented my research work on risk-averse reinforcement learning and specifically the algorithm: *Trust Region Volatility Optimization*. This work proposes a novel approach to managing portfolio volatility using reinforcement learning techniques.
+
 Download the slides [[PDF]({{site.url}}/downloads/Presentation_2020_EMAF_TRVO.pdf)].

@@ -1,13 +1,16 @@
 ---
 layout: post
-title:  "Ph.D. Dissertation Defense - Politecnico di Milano"
+title:  "Augmenting Traders with Learning Machines"
+type: Presentation
+location: Politecnico di Milano
 date:   2022-03-14
+category: ai-trading
 ---
 
-I obtained the Ph.D. with a thesis entitled *Augmenting Traders with Learning Machines.*\\
-The thesis can be found at this [link](https://www.politesi.polimi.it/bitstream/10589/182998/1/Edoardo_Vittori_PhD_Dissertation.pdf), while the slides used for the defense can be found [here]({{site.url}}/downloads/PhD_Thesis_Defense.pdf).
+I obtained the Ph.D. with a thesis entitled *Augmenting Traders with Learning Machines.*
+The thesis can be found at this [link](https://www.politesi.polimi.it/bitstream/10589/182998/1/Edoardo_Vittori_PhD_Dissertation.pdf), while the slides used for the defense can be found [here]({{site.url}}/downloads/Presentation_2022_PoliMi_PhD_Thesis_Defense.pdf).
 
-**Abstract**
+### Abstract
 
 The financial markets are comprised of several participants with diverse roles and objectives. Asset management firms optimize the portfolios of pension funds, institutions and private individuals; market makers offer liquidity by continuously pricing and hedging their risks; proprietary traders invest their own capital with sophisticated methodologies. 
 The approaches adopted by these actors are either manual or expert systems that rely on the experience of traders, and thus are subject to human bias and error.

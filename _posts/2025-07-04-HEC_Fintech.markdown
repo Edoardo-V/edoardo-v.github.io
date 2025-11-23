@@ -1,10 +1,13 @@
 ---
 layout: post
-title:  "Quant Finance - HEC Fintech Summer School"
+title:  "Quant Finance"
+type: Lecture
+location: HEC Paris FinTech Summer School
 date:   2025-07-04
+category: ai-trading
 ---
 
-I held a course at the [HEC Paris FinTech Summer School](https://www.hec.edu/en/summer-school/summer-programs/fintech-future-finance) entitled *Quant Finance*. This was part of the "FinTech: The Future of Finance" program (June 30 - July 11, 2025), where I taught on July 4th, 2025. The course covered comprehensive topics across four main areas:
+I held a course at the [HEC Paris FinTech Summer School](https://www.hec.edu/en/summer-school/summer-programs/fintech-future-finance) entitled *Quant Finance*. This was part of the **"FinTech: The Future of Finance"** program (June 30 - July 11, 2025), where I taught on July 4th, 2025. The course covered comprehensive topics across four main areas:
 
 **Financial Markets**
 - Market Making

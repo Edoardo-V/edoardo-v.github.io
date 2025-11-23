@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "AI in Finance Workshop"
+type: Event
+location: ECAI 2025
+date:   2025-10-26
+category: ai-trading
+---
+
+## Reflections on the *AI in Finance* Workshop at ECAI 2025, Bologna
+
+On October 26, 2025, I had the pleasure of co-organizing the **AI in Finance Workshop** at this year’s *European Conference on Artificial Intelligence (ECAI)* in Bologna. The event exceeded all expectations: more than **80 participants** joined us for a full day of discussions, presentations, and exchanges at the intersection of artificial intelligence and financial innovation.
+
+I had the opportunity to **moderate a panel** dedicated to the role of AI in the financial industry, featuring speakers from **Intesa Sanpaolo**, **Banco d’Italia**, and **Simitain**. Their perspectives on regulation, model adoption, and real-world deployment made the session one of the highlights of the workshop.
+
+I also presented our recent work on **optimal execution using the Q-Reactive model**, discussing how reinforcement learning can improve execution strategies in modern electronic markets.
+
+You can find the full program and event details here:  
+**https://sites.google.com/view/ECAI25-ai-fin**
+
+The workshop generated great energy, insightful conversations, and a strong sense of community. Thank you to everyone who joined and contributed — looking forward to next steps and future collaborations!
+
+Download the slides [[PDF]({{site.url}}/downloads/Presentation_2025_WAIFin_QRM_for_Optimal_Execution.pdf)].
+
+Here you can find the arxiv paper: [Reinforcement Learning in Queue-Reactive Models: Application to Optimal Execution](https://arxiv.org/pdf/2511.15262).

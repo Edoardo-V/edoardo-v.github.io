@@ -1,10 +1,13 @@
 ---
 layout: post
-title:  "RL for Algorithmic Trading - King's College"
+title:  "Reinforcement Learning in the Capital Markets"
+type: Lecture
+location: King's College London
 date:   2023-03-10
+category: ai-trading
 ---
 
-I gave my first 2 hour lecture to the students of the MSc in Computational Finance at King's College London. The topic was Reinforcement Learning in the Capital Markets. I had the chance to present most of my research, explaining how RL can be used to solve problems in the trading and hedging space.
+I gave my first 2 hour lecture to the students of the MSc in Computational Finance at **King's College London**. The topic was **Reinforcement Learning in the Capital Markets**. I had the chance to present most of my research, explaining how RL can be used to solve problems in the trading and hedging space. This lecture aimed to bridge the gap between academic theory and practical application in algorithmic trading.
 
 
-Download the full slides [[PDF]({{site.url}}/downloads/230310_CFinance_Seminar_EV.pdf)].
+Download the full slides [[PDF]({{site.url}}/downloads/Presentation_2023_CFinance_Seminar_EV.pdf)].

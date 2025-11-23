@@ -25,100 +25,443 @@
 <body><header class="site-header">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/">Edoardo Vittori</a><nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger">
+        <span class="menu-icon">
+          <svg viewBox="0 0 18 15" width="18px" height="15px">
+            <path
+              d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z" />
+          </svg>
+        </span>
+      </label>
 
-        <div class="trigger"><a class="page-link" href="/cv/">Curriculum</a><a class="page-link" href="/publications/">Publications</a><a class="page-link" href="/research/">Research</a><!--           
-          -->
-        </div>
-      </nav></div>
-</header>
-<main class="page-content" aria-label="Content">
+      <div class="trigger">
+        
+        <a class="page-link"
+          href="/research/">AI Research</a><a class="page-link"
+          href="/space-economy/">Space Economy Research</a><a class="page-link active"
+          href="/publications/">Publications</a><a class="page-link"
+          href="/presentations/">Presentations and Lectures</a></div>
+    </nav></div>
+</header><main class="page-content" aria-label="Content">
     <div class="wrapper">
+      <style>
+.publication-section {
+  margin-bottom: 3rem;
+}
+
+.publication-section h2 {
+  border-bottom: 2px solid #e8e8e8;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+.publication-item {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-left: 3px solid #3498db;
+  transition: all 0.3s ease;
+}
+
+.publication-item:hover {
+  background: #f0f0f0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.publication-item h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.1em;
+  color: #2c3e50;
+}
+
+.publication-meta {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.publication-links {
+  margin-top: 0.5rem;
+}
+
+.publication-links a {
+  margin-right: 1rem;
+  color: #3498db;
+  text-decoration: none;
+}
+
+.publication-links a:hover {
+  text-decoration: underline;
+}
+
+
+
+.award-badge {
+  display: inline-block;
+  background: #e74c3c;
+  color: white;
+  padding: 0.2em 0.6em;
+  border-radius: 12px;
+  font-size: 0.85em;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+.pub-category-filters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.pub-category-filter {
+  padding: 0.5rem 1.5rem;
+  background: #f5f5f5;
+  border: 2px solid #ddd;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.pub-category-filter:hover,
+.pub-category-filter.active {
+  background: #3498db;
+  color: white;
+  border-color: #3498db;
+}
+
+.publication-section {
+  transition: opacity 0.3s ease;
+}
+
+.publication-section.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .publication-item {
+    padding: 0.75rem;
+  }
+  
+  .publication-item h3 {
+    font-size: 1em;
+  }
+  
+  .pub-category-filters {
+    gap: 0.5rem;
+  }
+  
+  .pub-category-filter {
+    padding: 0.4rem 1rem;
+    font-size: 0.85em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .publication-item {
+    padding: 0.5rem;
+  }
+  
+  .publication-meta {
+    font-size: 0.85em;
+  }
+  
+  .citation-count,
+  .award-badge {
+    display: block;
+    margin: 0.5rem 0 0 0;
+    width: fit-content;
+  }
+}
+</style>
+
+<div class="pub-category-filters">
+  <a href="#" class="pub-category-filter active" data-category="all">All</a>
+  <a href="#" class="pub-category-filter" data-category="ai-trading">AI &amp; Trading</a>
+  <a href="#" class="pub-category-filter" data-category="space-economy">Space Economy</a>
+</div>
+
+<div class="publication-section" id="ai-trading" data-category="ai-trading">
+  <h2>AI &amp; Trading</h2>
+
+  <div class="publication-item">
+    <h3>Reinforcement Learning in Queue-Reactive Models: Application to Optimal Execution</h3>
+    <div class="publication-meta">
+      <strong>Authors:</strong> Tomas Espana, Yadh Hafsi, Fabrizio Lillo, Edoardo Vittori<br />
+      <strong>Year:</strong> 2025, arXiv
+
+    </div>
+    <div class="publication-links">
+      <a href="https://arxiv.org/pdf/2511.15262">PDF</a>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <h3>Leveraging LLMs for Top-Down Sector Allocation in Automated Trading</h3>
+    <div class="publication-meta">
+      <strong>Authors:</strong> Ryan Quek Wei Heng, Edoardo Vittori, Keane Ong, Rui Mao, Erik Cambria, Gianmarco Mengaldo<br />
+      <strong>Year:</strong> 2025
+
+    </div>
+    <div class="publication-links">
+      <a href="https://arxiv.org/pdf/2503.09647">PDF</a>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <h3>Optimal Execution with Reinforcement Learning</h3>
+    <div class="publication-meta">
+      <strong>Authors:</strong> Yadh Hafsi, Edoardo Vittori<br />
+      <strong>Year:</strong> 2024, arXiv
+
+    </div>
+    <div class="publication-links">
+      <a href="https://arxiv.org/pdf/2411.06389">PDF</a>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <h3>Exploiting Risk-Aversion and Size-dependent fees in FX Trading with Fitted Natural Actor-Critic</h3>
+    <div class="publication-meta">
+      <strong>Authors:</strong> Vito Alessandro Monaco, Antonio Riva, Luca Sabbioni, Lorenzo Bisi, Edoardo Vittori, Marco Pinciroli, Michele Trapletti, Marcello Restelli<br />
+      <strong>Year:</strong> 2024, arXiv
+
+    </div>
+    <div class="publication-links">
+      <a href="https://arxiv.org/pdf/2410.23294">PDF</a>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <h3>CVA Hedging with Reinforcement Learning</h3>
+    <div class="publication-meta">
+      <strong>Authors:</strong> Roberto Daluiso, Marco Pinciroli, Michele Trapletti, Edoardo Vittori<br />
+      <strong>Year:</strong> 2023, International Conference on AI for Finance
+
+      <span class="award-badge">Runner-up Best Industrial Paper Award</span>
+    </div>
+    <div class="publication-links">
+      <a href="http://localhost:4000/downloads/2023_Daluiso_CVA.pdf">PDF</a>
+      <a href="https://dl.acm.org/doi/10.1145/3604237.3626852">Link</a>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <h3>Dealer Markets: a Reinforcement Learning Mean Field Game Approach</h3>
+    <div class="publication-meta">
+      <strong>Authors:</strong> Martino Bernasconi De Luca, Edoardo Vittori, Francesco Trovò, Marcello Restelli<br />
+      <strong>Year:</strong> 2023, The North American Journal of Economics and Finance
+
+    </div>
+    <div class="publication-links">
+      <a href="https://www.sciencedirect.com/science/article/pii/S1062940823000979">Link</a>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <h3>Reinforcement Learning for Credit Index Option Hedging</h3>
+    <div class="publication-meta">
+      <strong>Authors:</strong> Francesco Mandelli, Marco Pinciroli, Michele Trapletti, Edoardo Vittori<br />
+      <strong>Year:</strong> 2023, arXiv
+
+    </div>
+    <div class="publication-links">
+      <a href="https://arxiv.org/pdf/2307.09844.pdf">PDF</a>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <h3>Augmenting Traders with Learning Machines</h3>
+    <div class="publication-meta">
+      <strong>Authors:</strong> Edoardo Vittori<br />
+      <strong>Year:</strong> 2022, PhD dissertation
+
+    </div>
+    <div class="publication-links">
+      <a href="https://www.politesi.polimi.it/bitstream/10589/182998/1/Edoardo_Vittori_PhD_Dissertation.pdf">PDF</a>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <h3>Dark-Pool Smart Order Routing: a Combinatorial Multi-armed Bandit Approach</h3>
+    <div class="publication-meta">
+      <strong>Authors:</strong> Martino Bernasconi De Luca, Stefano Martino, Edoardo Vittori, Francesco Trovò, Marcello Restelli<br />
+      <strong>Year:</strong> 2022, International Conference on AI for Finance
+
+    </div>
+    <div class="publication-links">
+      <a href="http://localhost:4000/downloads/2022_Martino_dark.pdf">PDF</a>
+      <a href="https://dl.acm.org/doi/abs/10.1145/3533271.3561728">Link</a>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <h3>Addressing Non-Stationarity in FX Trading with Online Model Selection of Offline RL Experts</h3>
+    <div class="publication-meta">
+      <strong>Authors:</strong> Antonio Riva, Lorenzo Bisi, Pierre Liotet, Luca Sabbioni, Edoardo Vittori, Marco Pinciroli, Michele Trapletti, Marcello Restelli<br />
+      <strong>Year:</strong> 2022, International Conference on AI for Finance
+
+    </div>
+    <div class="publication-links">
+      <a href="http://localhost:4000/downloads/2022_Riva_expertfx.pdf">PDF</a>
+      <a href="https://dl.acm.org/doi/abs/10.1145/3533271.3561780">Link</a>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <h3>MCTS for Trading and Hedging</h3>
+    <div class="publication-meta">
+      <strong>Authors:</strong> Edoardo Vittori, Amarildo Likmeta, Marcello Restelli<br />
+      <strong>Year:</strong> 2021, International Conference on AI for Finance
+
+    </div>
+    <div class="publication-links">
+      <a href="http://localhost:4000/downloads/2021_Vittori_MCTS.pdf">PDF</a>
+      <a href="https://dl.acm.org/doi/abs/10.1145/3490354.3494402">Link</a>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <h3>Learning FX Trading Strategies with FQI and Persistent Actions</h3>
+    <div class="publication-meta">
+      <strong>Authors:</strong> Antonio Riva, Lorenzo Bisi, Pierre Liotet, Luca Sabbioni, Edoardo Vittori, Marco Pinciroli, Michele Trapletti, Marcello Restelli<br />
+      <strong>Year:</strong> 2021, International Conference on AI for Finance
+
+    </div>
+    <div class="publication-links">
+      <a href="http://localhost:4000/downloads/2021_Riva_FX.pdf">PDF</a>
+      <a href="https://dl.acm.org/doi/abs/10.1145/3490354.3494403">Link</a>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <h3>Conservative Online Convex Optimization</h3>
+    <div class="publication-meta">
+      <strong>Authors:</strong> Martino Bernasconi De Luca, Edoardo Vittori, Francesco Trovò, Marcello Restelli<br />
+      <strong>Year:</strong> 2021, European Conference on Machine Learning
+
+    </div>
+    <div class="publication-links">
+      <a href="https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_271.pdf">PDF</a>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <h3>Dealing with Transaction Costs in Portfolio Optimization: Online Gradient Descent with Momentum</h3>
+    <div class="publication-meta">
+      <strong>Authors:</strong> Edoardo Vittori, Martino Bernasconi De Luca, Francesco Trovò, Marcello Restelli<br />
+      <strong>Year:</strong> 2020, International Conference on AI for Finance
+
+    </div>
+    <div class="publication-links">
+      <a href="http://localhost:4000/downloads/2020_Vittori_OGDM.pdf">PDF</a>
+      <a href="https://dl.acm.org/doi/abs/10.1145/3383455.3422531">Link</a>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <h3>Option Hedging with Risk Averse Reinforcement Learning</h3>
+    <div class="publication-meta">
+      <strong>Authors:</strong> Edoardo Vittori, Michele Trapletti, Marcello Restelli<br />
+      <strong>Year:</strong> 2020, International Conference on AI for Finance
+
+    </div>
+    <div class="publication-links">
+      <a href="https://arxiv.org/pdf/2010.12245">PDF</a>
+      <a href="https://dl.acm.org/doi/abs/10.1145/3383455.3422532">Link</a>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <h3>Risk-Averse Trust Region Optimization for Reward-Volatility Reduction</h3>
+    <div class="publication-meta">
+      <strong>Authors:</strong> Lorenzo Bisi, Luca Sabbioni, Edoardo Vittori, Matteo Papini, Marcello Restelli<br />
+      <strong>Year:</strong> 2020, International Joint Conference on Artificial Intelligence
+
+    </div>
+    <div class="publication-links">
+      <a href="https://www.ijcai.org/Proceedings/2020/0632.pdf">PDF</a>
+    </div>
+  </div>
+
+</div>
+
+<div class="publication-section" id="space-economy" data-category="space-economy">
+  <h2>Space Economy</h2>
+
+  <div class="publication-item">
+    <h3>Is the Lunar Economy Solely for the Space Industry? Opportunities for Nonspace Companies in Lunar Infrastructure Leveraging Technological Synergies</h3>
+    <div class="publication-meta">
+      <strong>Authors:</strong> Christophe Bosquillon, Lari Cujko, Gidon Gautel, Derek Webber, Andrea Conconi, Mattia Pianorsi, Simonetta Di Pippo, Edoardo Vittori<br />
+      <strong>Year:</strong> 2024, New Space
+
+    </div>
+    <div class="publication-links">
+      <a href="https://www.liebertpub.com/doi/abs/10.1089/space.2023.0057">Link</a>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <h3>Preliminary analyses on technical and economic viability of moon-mined propellant for on-orbit refueling</h3>
+    <div class="publication-meta">
+      <strong>Authors:</strong> Andrea Sommariva, Paolo Gaudenzi, Mattia Pianorsi, Michele Pasquali, Edoardo Vittori, Marco Eugeni, Matilde Italiano et al.<br />
+      <strong>Year:</strong> 2023, Acta Astronautica
+
+    </div>
+    <div class="publication-links">
+      <a href="https://www.sciencedirect.com/science/article/pii/S0094576523000061?dgcid=author">Link</a>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <h3>GLINT: Gravitational-wave laser INterferometry triangle</h3>
+    <div class="publication-meta">
+      <strong>Authors:</strong> Shafa Aria, Rui Azevedo, Rick Burow, Fiachra Cahill, Lada Ducheckova, Alexa Holroyd, Victor Huarcaya, Emilia Jarvel, Martin Koßagk, Chris Moeckel, Ana Rodriguez, Fabien Royer, Richard Sypniewski, Edoardo Vittori, Madeleine Yttergren<br />
+      <strong>Year:</strong> 2017, Experimental Astronomy
+
+    </div>
+    <div class="publication-links">
+      <a href="https://www.researchgate.net/publication/321195945_GLINT_Gravitational-wave_laser_INterferometry_triangle/fulltext/5d6ec8db45851542789f742a/GLINT-Gravitational-wave-laser-INterferometry-triangle.pdf">PDF</a>
+    </div>
+  </div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const filters = document.querySelectorAll('.pub-category-filter');
+  const sections = document.querySelectorAll('.publication-section');
+
+  filters.forEach(filter => {
+    filter.addEventListener('click', function(e) {
+      e.preventDefault();
+      const category = this.getAttribute('data-category');
       
-<h2>Publications</h2>
-<p><p>Here you can find my publications:</p>
+      // Update active state
+      filters.forEach(f => f.classList.remove('active'));
+      this.classList.add('active');
+      
+      // Filter sections
+      sections.forEach(section => {
+        if (category === 'all' || section.getAttribute('data-category') === category) {
+          section.classList.remove('hidden');
+        } else {
+          section.classList.add('hidden');
+        }
+      });
+    });
+  });
+});
+</script>
 
-<ul>
-  <li>
-    <p>Ryan Quek Wei Heng, Edoardo Vittori, Keane Ong, Rui Mao, Erik Cambria, Gianmarco Mengaldo. <em>Leveraging LLMs for Top-Down Sector Allocation in Automated Trading</em>, 2025. [<a href="https://arxiv.org/pdf/2503.09647">PDF</a>]</p>
-  </li>
-  <li>
-    <p>Yadh Hafsi, Edoardo Vittori. <em>Optimal Execution with Reinforcement Learning</em>, arXiv, 2024.
-[<a href="https://arxiv.org/pdf/2411.06389">PDF</a>]</p>
-  </li>
-  <li>
-    <p>Vito Alessandro Monaco, Antonio Riva, Luca Sabbioni, Lorenzo Bisi, Edoardo Vittori, Marco Pinciroli, Michele Trapletti, Marcello Restelli. <em>Exploiting Risk-Aversion and Size-dependent fees in FX Trading with Fitted Natural Actor-Critic</em>, arXiv, 2024.
-[<a href="https://arxiv.org/pdf/2410.23294">PDF</a>]</p>
-  </li>
-  <li>
-    <p>Christophe Bosquillon, Lari Cujko, Gidon Gautel, Derek Webber, Andrea Conconi, Mattia Pianorsi, Simonetta Di Pippo, Edoardo Vittori., <em>Is the Lunar Economy Solely for the Space Industry? Opportunities for Nonspace Companies in Lunar Infrastructure Leveraging Technological Synergies</em>, New Space, 2024.
-[<a href="https://www.liebertpub.com/doi/abs/10.1089/space.2023.0057">Link</a>]</p>
-  </li>
-  <li>
-    <p>Roberto Daluiso, Marco Pinciroli, Michele Trapletti, Edoardo Vittori. <em>CVA Hedging with Reinforcement Learning</em>, International Conference on AI for Finance, 2023.
-[<a href="http://localhost:4000/downloads/2023_Daluiso_CVA.pdf">PDF</a>][<a href="https://dl.acm.org/doi/10.1145/3604237.3626852">Link</a>] <br />
-<em>Awarded Runner-up Best Industrial Paper Award</em></p>
-  </li>
-  <li>
-    <p>Martino Bernasconi De Luca, Edoardo Vittori, Francesco Trovò, Marcello Restelli. <em>Dealer Markets: a Reinforcement Learning Mean Field Game Approach</em>, The North American Journal of Economics and Finance, 2023.
-[<a href="https://pdf.sciencedirectassets.com/272105/1-s2.0-S1062940823X00059/1-s2.0-S1062940823000979/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEH0aCXVzLWVhc3QtMSJIMEYCIQDTzzGj0PcTrNkMTjxRNupkFyyL4o0yhSmVZLuYKDDDzQIhAKG0eQobHKEz2TgNTJlIo2CgX1wlcwUhsa36fbgMCvPMKrIFCFUQBRoMMDU5MDAzNTQ2ODY1IgxTbOfe1g0v16i%2F%2FHEqjwWNY4oE8H6ZW%2B3MAmStjOh1w6UJiZzvbkeMCfQxKNRkNmU9vEmNAP8JPpUIoMsnp1PkR8gFmxUyj7TfK927xWn3sUm6%2BjHlW%2F4IsKBRmICsmYWddw3FaU14KTUbooMxGDxqGUleuQyoLrCgKmzVKcc2t3CdEnoRDK0Hxxau1BbezgLUSnYeDdNK9QUBmRr9W1KF9CMUwM8oMQKBsHqZLIU%2BByjfHNJfxW1O%2B%2FpOU418KK%2B4lRB40bgiT25dJIMiILBLfFJZTMqh5%2Bzlt7tOQuJmuOaOiwGkAWCE4%2BPDyzq9N1EcrUuqmC6MH%2BUjLoRmt2ER6TdD%2BOE6JxuqlZrlfDCOFnaKCbpIiyUEIqp1kTJQnz5y1d9q9e8%2FSibFHtCs8XlilJTovpssTdqw%2BsNwBogfBdzP57Nhp0Qddmo3YtCiac5hL9mI8aSijr9Yq0owcKHDn%2Bz2q8GCnOkzvy%2BbziZ6SVMUa%2Fh7W9Ojot3%2BOariFZIa0evRKmuOnCrg7bnM14HtWkQz5S%2BdpPPJyzIzjJzg2MS38F6BAx2rYUlyqguAT4m6rJNM2ONkVgpo%2BEEWTks%2F0dkg9e4GgZ759sU2JPXS5p86Lxvk%2BUe%2BegtBXVeitttimVqc8Aw6fcJUtRCBnjJJd1204mdLm5b6Ob%2Bcvx3QNbRYv%2BE86tvNDf1ZH7V5Jz%2FOyYamoLOMknGrEsYtQ49o24V%2F0srij7aOqDl3FHNHUfEUFPwIexBOIm%2Blmut87rZfGKa4JxUXsbfMG%2BH8IDHEu14B0muwRS5w%2FXtmHOU5fUo1pIIH2ippo9l%2FcWIc3kruILGWCRms2ZZ%2Bl8UPtd1yGc6qaNsUe%2BzhTQuLxzAA4rcUgPE7eCZc3jPrkelTMLfZ2qcGOrABWeD2y%2BCVB8%2BxeCbth060is%2Bovp%2B3TKYWxSAwru7%2BxAczZwht3vWnFGDhWdZvXyi6g57z7aUYY7Lhx5QS28AlS7i4X40LtJBVP8VL3FChMsAbFnV6T2jvW5DwYxJVZTeoVja%2Fy9dU%2FAgQ4aiSO70xUSr8cq89QFztC5%2Bo62GDaCjO27t%2BMe93AyrDctr80epYNEtlm8uiFL8XJVwbyT223Fqeg9Luf9KFlRgeYaxTCiE%3D&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Date=20230905T051955Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Expires=300&amp;X-Amz-Credential=ASIAQ3PHCVTYVR4YRVHB%2F20230905%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Signature=71fd23a093d28411d535e4fbf5d4d4a2d26455617ec7bbceeef967af4a630e9c&amp;hash=1afb66e23f35649f68ba36dade2cde7b71a715e503e25c9d89479a8bee950c56&amp;host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&amp;pii=S1062940823000979&amp;tid=spdf-3dc8da49-6b2a-49f4-9edd-e7232f78fa0a&amp;sid=a551a64e76658543b33a8392d0f4c574c481gxrqb&amp;type=client&amp;tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&amp;ua=1310565152045352505c&amp;rr=801c05231a0aa268&amp;cc=it">PDF</a>][<a href="https://www.sciencedirect.com/science/article/pii/S1062940823000979">Link</a>]</p>
-  </li>
-  <li>
-    <p>Francesco Mandelli, Marco Pinciroli, Michele Trapletti, Edoardo Vittori. <em>Reinforcement Learning for Credit Index Option Hedging</em>, Arxiv, 2023.
-[<a href="https://arxiv.org/pdf/2307.09844.pdf">PDF</a>]</p>
-  </li>
-  <li>
-    <p>Andrea Sommariva, Paolo Gaudenzi, Mattia Pianorsi, Michele Pasquali, Edoardo Vittori, Marco Eugeni, Matilde Italiano et al. <em>Preliminary analyses on technical and economic viability of moon-mined propellant for on-orbit refueling</em>, Acta Astronautica, 2023.[<a href="https://reader.elsevier.com/reader/sd/pii/S0094576523000061?token=F1F1B8800F00398247060D4F34D042063DFD53A759F4DFE6B9651C2CA02C4DEC0EC43368B7ADCB804D44E25ED0658BFD&amp;originRegion=eu-west-1&amp;originCreation=20230120084326">PDF</a>][<a href="https://www.sciencedirect.com/science/article/pii/S0094576523000061?dgcid=author">Link</a>]</p>
-  </li>
-  <li>
-    <p>Edoardo Vittori. <em>Augmenting Traders with Learning Machines</em>, PhD dissertation, 2022.
-[<a href="https://www.politesi.polimi.it/bitstream/10589/182998/1/Edoardo_Vittori_PhD_Dissertation.pdf">PDF</a>]</p>
-  </li>
-  <li>
-    <p>Martino Bernasconi De Luca, Stefano Martino, Edoardo Vittori, Francesco Trovò, Marcello Restelli. <em>Dark-Pool Smart Order Routing: a Combinatorial Multi-armed Bandit Approach</em>, International Conference on AI for Finance, 2022.
-[<a href="http://localhost:4000/downloads/2022_Martino_dark.pdf">PDF</a>][<a href="https://dl.acm.org/doi/abs/10.1145/3533271.3561728">Link</a>]</p>
-  </li>
-  <li>
-    <p>Antonio Riva, Lorenzo Bisi, Pierre Liotet, Luca Sabbioni, Edoardo Vittori, Marco Pinciroli, Michele Trapletti, Marcello Restelli. <em>Addressing Non-Stationarity in FX Trading with Online Model Selection of Offline RL Experts</em>, International Conference on AI for Finance, 2022.
-[<a href="http://localhost:4000/downloads/2022_Riva_expertfx.pdf">PDF</a>][<a href="https://dl.acm.org/doi/abs/10.1145/3533271.3561780">Link</a>]</p>
-  </li>
-  <li>
-    <p>Edoardo Vittori, Amarildo Likmeta, Marcello Restelli. <em>MCTS for Trading and Hedging</em>, International Conference on AI for Finance, 2021.
-[<a href="http://localhost:4000/downloads/2021_Vittori_MCTS.pdf">PDF</a>][<a href="https://dl.acm.org/doi/abs/10.1145/3490354.3494402">Link</a>]</p>
-  </li>
-  <li>
-    <p>Antonio Riva, Lorenzo Bisi, Pierre Liotet, Luca Sabbioni, Edoardo Vittori, Marco Pinciroli, Michele Trapletti, Marcello Restelli. <em>Learning FX Trading Strategies with FQI and Persistent Actions</em>, International Conference on AI for Finance, 2021.
-[<a href="http://localhost:4000/downloads/2021_Riva_FX.pdf">PDF</a>][<a href="https://dl.acm.org/doi/abs/10.1145/3490354.3494403">Link</a>]</p>
-  </li>
-  <li>
-    <p>Martino Bernasconi De Luca, Edoardo Vittori, Francesco Trovò, Marcello Restelli. <em>Conservative Online Convex Optimization</em>, European Conference on Machine Learning, 2021. 
-[<a href="https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_271.pdf">PDF</a>]</p>
-  </li>
-  <li>
-    <p>Edoardo Vittori, Martino Bernasconi De Luca, Francesco Trovò, Marcello Restelli. <em>Dealing with Transaction Costs in Portfolio Optimization: Online Gradient Descent with Momentum</em>, International Conference on AI for Finance, 2020.
-[<a href="http://localhost:4000/downloads/2020_Vittori_OGDM.pdf">PDF</a>][<a href="https://dl.acm.org/doi/abs/10.1145/3383455.3422531">Link</a>]</p>
-  </li>
-  <li>
-    <p>Edoardo Vittori, Michele Trapletti, Marcello Restelli. <em>Option Hedging with Risk Averse Reinforcement Learning</em>, International Conference on AI for Finance, 2020.
-[<a href="https://arxiv.org/pdf/2010.12245">PDF</a>][<a href="https://dl.acm.org/doi/abs/10.1145/3383455.3422532">Link</a>]</p>
-  </li>
-  <li>
-    <p>Lorenzo Bisi, Luca Sabbioni, Edoardo Vittori, Matteo Papini, Marcello Restelli. <em>Risk-Averse Trust Region Optimization for Reward-Volatility Reduction</em>, International Joint Conference on Artificial Intelligence, 2020.
-[<a href="https://www.ijcai.org/Proceedings/2020/0632.pdf">PDF</a>]</p>
-  </li>
-  <li>
-    <p>Shafa Aria, Rui Azevedo, Rick Burow, Fiachra Cahill, Lada Ducheckova, Alexa Holroyd, Victor Huarcaya, Emilia Jarvel, Martin Koßagk, Chris Moeckel, Ana Rodriguez, Fabien Royer, Richard Sypniewski, Edoardo Vittori, Madeleine Yttergren.  <em>GLINT: Gravitational-wave laser INterferometry triangle.</em> Experimental Astronomy. 2017. [<a href="https://www.researchgate.net/publication/321195945_GLINT_Gravitational-wave_laser_INterferometry_triangle/fulltext/5d6ec8db45851542789f742a/GLINT-Gravitational-wave-laser-INterferometry-triangle.pdf">PDF</a>]</p>
-  </li>
-</ul>
-
-</p>
 
     </div>
   </main><footer class="site-footer h-card">
@@ -145,8 +488,7 @@
       </div>
     </div>
 
-    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/edoardo-v" title="edoardo-v"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://www.linkedin.com/in/Edoardo-Vittori" title="Edoardo-Vittori"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#linkedin"></use></svg></a></li></ul>
-</div>
+    <div class="social-links"><ul class="social-media-list"></ul></div>
 
   </div>
 

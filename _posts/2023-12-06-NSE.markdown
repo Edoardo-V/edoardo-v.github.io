@@ -1,10 +1,13 @@
 ---
 layout: post
-title:  "New Space Economy - Expoforum Rome 2023"
+title:  "Moon Opportunities"
+type: Presentation
+location: NSE ExpoForum
 date:   2023-12-06
+category: space-economy
 ---
 
-I had the honor of contributing to the "Moon Opportunities" round table at the NSE ExpoForum and present a study on the economic feasibility of Moon mining and in-orbit refuelling, based on a research developed with SDA Bocconi's [Space Economy Evolution Lab](https://www.sdabocconi.it/en/faculty-research/labs-and-research-centers/see-lab-space-economy-evolution).
+I had the honor of contributing to the **"Moon Opportunities" round table** at the **NSE ExpoForum** and present a study on the economic feasibility of Moon mining and in-orbit refuelling, based on a research developed with SDA Bocconi's [Space Economy Evolution Lab](https://www.sdabocconi.it/en/faculty-research/labs-and-research-centers/see-lab-space-economy-evolution). This discussion highlighted the strategic importance of lunar resources for the future of the space economy.
 A wrap-up of the event can be found at the following [link](https://www.adnkronos.com/economia/spazio-in-italia-circa-8mila-occupati-e-fatturato-a-2-miliardi_2nL6KSFxkxZKmY5nBEvjY).
 
-View the slides of my presentation [[PDF]({{site.url}}/downloads/Presentation_NSE_moonmining.pdf)].
+View the slides of my presentation [[PDF]({{site.url}}/downloads/Presentation_2023_NSE_moonmining.pdf)].

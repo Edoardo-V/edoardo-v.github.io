@@ -7,9 +7,22 @@ layout: default
     padding: 20px;
   }
 
+  @media screen and (max-width: 768px) {
+    .home {
+      padding: 15px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .home {
+      padding: 10px;
+    }
+  }
 
 
-  .home .post-list li { /* Adjusted margin between blog posts */
+
+  .home .post-list li {
+    /* Adjusted margin between blog posts */
     margin-bottom: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #ccc;
@@ -17,13 +30,15 @@ layout: default
 
 
 
-  .home .post-meta { /* Adjusted font size and color of post date */
+  .home .post-meta {
+    /* Adjusted font size and color of post date */
     font-size: 14px;
     color: #999;
     float: right;
   }
 
-  .home .post-link { /* Adjusted font size and color of post title */
+  .home .post-link {
+    /* Adjusted font size and color of post title */
     font-size: 20px;
     color: #333;
     text-decoration: none;
@@ -36,37 +51,69 @@ layout: default
     .home .post-link {
       font-size: 18px;
     }
+
+    .home .post-meta {
+      float: none;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    .home .post-list li {
+      padding: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .home .post-link {
+      font-size: 16px;
+    }
+
+    .home .section-title {
+      font-size: 20px;
+    }
+
+    .category-filters {
+      gap: 0.5rem;
+    }
+
+    .category-filter {
+      padding: 0.4rem 1rem;
+      font-size: 0.85em;
+    }
   }
 
   .home .intro {
-  /* Adjusted margin between intro image and text */
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  text-align: justify; 
+    /* Adjusted margin between intro image and text */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: justify;
   }
 
   @media screen and (min-width: 768px) {
-  .home .intro img {  /* Adjusted size of intro image */
-    max-width: 200px;
-    width: 100%;
-    height: auto;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    padding: 40px;
-  }}
+    .home .intro img {
+      /* Adjusted size of intro image */
+      max-width: 200px;
+      width: 100%;
+      height: auto;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      padding: 40px;
+    }
+  }
 
-  
+
   .home .intro-text {
     flex: 1;
   }
 
-  .home .post-separator { /* Adjusted margin between blog posts and section title */
+  .home .post-separator {
+    /* Adjusted margin between blog posts and section title */
     margin: 40px 0;
     border-bottom: 2px solid #ccc;
   }
 
-  .home .section-title {  
+  .home .section-title {
     text-align: center;
     font-size: 24px;
     margin-bottom: 20px;
@@ -75,46 +122,181 @@ layout: default
   .home .post-list {
     list-style: none;
     padding: 0;
-    margin-top: 20px; /* Adjusted margin between section title and blog posts */
+    margin-top: 20px;
+    /* Adjusted margin between section title and blog posts */
+  }
+
+  .category-filters {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .category-filter {
+    padding: 0.5rem 1.5rem;
+    background: #f5f5f5;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .category-filter:hover,
+  .category-filter.active {
+    background: #3498db;
+    color: white;
+    border-color: #3498db;
+  }
+
+  .category-badge {
+    display: inline-block;
+    padding: 0.2em 0.6em;
+    background: #ecf0f1;
+    border-radius: 12px;
+    font-size: 0.75em;
+    margin-left: 0.5rem;
+    color: #7f8c8d;
+  }
+
+  .category-badge.ai-trading {
+    background: #e8f5e9;
+    color: #2e7d32;
+  }
+
+  .category-badge.space-economy {
+    background: #e3f2fd;
+    color: #1565c0;
+  }
+
+  .type-badge {
+    display: inline-block;
+    padding: 0.2em 0.6em;
+    background: #95a5a6;
+    /* Default gray */
+    color: white;
+    border-radius: 4px;
+    font-size: 0.6em;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .type-badge.presentation {
+    background-color: #3498db;
+  }
+
+  /* Blue */
+  .type-badge.lecture {
+    background-color: #2ecc71;
+  }
+
+  /* Green */
+  .type-badge.event {
+    background-color: #e67e22;
+  }
+
+  /* Orange */
+  .type-badge.article {
+    background-color: #9b59b6;
+  }
+
+  /* Purple */
+
+  .post-location {
+    font-size: 0.7em;
+    color: #7f8c8d;
+    font-weight: 400;
+    margin-left: 0.5rem;
   }
 </style>
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- if page.title and page.hide_title != true -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
   {{ content }}
 
-  {% if site.paginate %}	
-    {% assign posts = paginator.posts %}	
-  {% else %}	
-    {% assign posts = site.posts %}	
+  {% if site.paginate %}
+  {% assign posts = paginator.posts %}
+  {% else %}
+  {% assign posts = site.posts %}
   {% endif %}
-  
-  {%- if posts.size > 0 -%}
-    <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
-      <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
 
-    {% if site.paginate %}
-      <div class="pager">
-        <!-- ... (previous pagination code) ... -->
-      </div>
-    {%- endif %}
+  {%- if posts.size > 0 -%}
+  <div class="category-filters">
+    <a href="#" class="category-filter active" data-category="all">All</a>
+    <a href="#" class="category-filter" data-category="ai-trading">AI & Trading</a>
+    <a href="#" class="category-filter" data-category="space-economy">Space Economy</a>
+  </div>
+
+  <ul class="post-list">
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- for post in posts -%}
+    <li class="post-item" data-category="{{ post.category | default: 'ai-trading' }}">
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+        <div style="margin-top: 5px;">
+          {% if post.type %}
+          <span class="type-badge {{ post.type | downcase }}">{{ post.type }}</span>
+          {% endif %}
+          {% if post.location %}
+          <span class="post-location">@ {{ post.location }}</span>
+          {% endif %}
+        </div>
+        {% if post.category %}
+        <span class="category-badge {{ post.category }}" style="float: right; margin-top: -25px;">{{ post.category |
+          replace: '-', ' ' | capitalize }}</span>
+        {% endif %}
+      </h3>
+      {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const filters = document.querySelectorAll('.category-filter');
+      const posts = document.querySelectorAll('.post-item');
+
+      filters.forEach(filter => {
+        filter.addEventListener('click', function (e) {
+          e.preventDefault();
+          const category = this.getAttribute('data-category');
+
+          // Update active state
+          filters.forEach(f => f.classList.remove('active'));
+          this.classList.add('active');
+
+          // Filter posts
+          posts.forEach(post => {
+            if (category === 'all' || post.getAttribute('data-category') === category) {
+              post.style.display = '';
+            } else {
+              post.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
+
+  {% if site.paginate %}
+  <div class="pager">
+    <!-- ... (previous pagination code) ... -->
+  </div>
+  {%- endif %}
 
   {%- endif -%}
 

@@ -1,10 +1,17 @@
 ---
 layout: post
-title:  "ICAIF 2022 conference - New York"
+title:  "Dark Pool Smart Order Routing"
+type: Presentation
+location: ICAIF 2022
 date:   2022-11-03
+category: ai-trading
 ---
 
-Also this year, I submitted two papers which were both accepted to the third edition of theInternational Conference on AI in Finance, 2-4 November 2022 [(website](https://ai-finance.org/)). The papers are: *Dark Pool Smart Order Routing, a Combinatorial-MAB Approach* and *Addressing Non-Stationarity in FX Trading with Online Model Selection of Offline RL Experts*. I presented the one on Smart Routing on Dark Pools!
+Also this year, I submitted two papers which were both accepted to the third edition of the **International Conference on AI in Finance (ICAIF)**, 2-4 November 2022 [(website](https://ai-finance.org/)). The papers are:
+- *Dark Pool Smart Order Routing, a Combinatorial-MAB Approach*
+- *Addressing Non-Stationarity in FX Trading with Online Model Selection of Offline RL Experts*
 
-*Dark Pool Smart Order Routing, a Combinatorial-MAB Approach*\\
-Download the slides [[PDF]({{site.url}}/downloads/Presentation_2022_ICAIF_DPSOR.pdf)].
+I presented the one on **Smart Routing on Dark Pools**!
+
+- *Dark Pool Smart Order Routing, a Combinatorial-MAB Approach*
+  <br>Download the slides [[PDF]({{site.url}}/downloads/Presentation_2022_ICAIF_DPSOR.pdf)].

@@ -1,12 +1,15 @@
 ---
 layout: post
-title:  "ICAIF 2020 conference"
+title:  "Option hedging with Risk Averse Reinforcement Learning"
+type: Presentation
+location: ICAIF 2020
 date:   2020-10-15
+category: ai-trading
 ---
-At the International Conference on AI in Finance, 14-16 October 2020, ([website](https://ai-finance.org/)), I had the opportunity of presenting two research papers. The slides are below!
+At the **International Conference on AI in Finance (ICAIF)**, 14-16 October 2020, ([website](https://ai-finance.org/)), I had the opportunity of presenting two research papers. The slides are below!
 
-*Option hedging with Risk Averse Reinforcement Learning*\\
-Download the slides [[PDF]({{site.url}}/downloads/Presentation_2020_ICAIF_Option_Hedging.pdf)]
+- *Option hedging with Risk Averse Reinforcement Learning*
+  <br>Download the slides [[PDF]({{site.url}}/downloads/Presentation_2020_ICAIF_Option_Hedging.pdf)]
 
-*Dealing with Transaction Costs in Portfolio Optimization: Online Gradient Descent with Momentum*\\
-Download the slides [[PDF]({{site.url}}/downloads/Presentation_2020_ICAIF_OGDM.pdf)].
+- *Dealing with Transaction Costs in Portfolio Optimization: Online Gradient Descent with Momentum*
+  <br>Download the slides [[PDF]({{site.url}}/downloads/Presentation_2020_ICAIF_OGDM.pdf)].

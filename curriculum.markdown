@@ -2,16 +2,18 @@
 layout: default
 title: Curriculum
 permalink: /cv/
-order: 4
+# Removed from navigation - content merged into home page
 ---
 
 ### Bio
 
-I am Vice President at Intesa Sanpaolo in the Cross Asset Systematic Trading desk, eveloping systematic investment strategies powered by advanced machine learning techniques, including deep learning and reinforcement learning. A CAIA charterholder, I combine hands-on trading experience with quantitative research.
+I am Vice President at Intesa Sanpaolo, leading the Cross Asset Systematic Trading desk where I develop and deploy systematic investment strategies powered by advanced machine learning techniques, including deep learning and reinforcement learning. As a CAIA charterholder, I combine hands-on trading experience with rigorous quantitative research to deliver institutional-grade trading systems.
 
-Before my current role, I worked as an XVA trader within Intesa Sanpaolo’s XVA Management desk, pricing and hedging derivatives across asset classes, and contributing to quantitative research projects.
+In my current role, I lead a team focused on developing alpha-generating strategies that leverage cutting-edge machine learning methodologies while maintaining strict risk management and regulatory compliance. My work spans multiple asset classes and trading frequencies, from high-frequency execution strategies to longer-term portfolio optimization frameworks.
 
-Academically, I earned a Ph.D. in Reinforcement Learning for Algorithmic Trading from Politecnico di Milano in 2022, an Executive Master in Finance from SDA Bocconi in 2018, and a Master’s degree in Mathematics from Imperial College London in 2016, obtaining a First.
+Prior to my current position, I served as an XVA trader within Intesa Sanpaolo's XVA Management desk, where I was responsible for pricing and hedging derivatives across asset classes. I contributed to quantitative research projects that informed strategic decision-making and risk management practices.
+
+My academic background includes a Ph.D. in Reinforcement Learning for Algorithmic Trading from Politecnico di Milano (2022), an Executive Master in Finance from SDA Bocconi (2018), and a Master's degree in Mathematics from Imperial College London (2016), where I graduated with First Class Honours. This combination of deep technical expertise and business acumen enables me to translate academic research into practical trading applications.
 
 ### Curriculum
 

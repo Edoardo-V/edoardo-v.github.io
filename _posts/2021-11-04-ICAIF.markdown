@@ -1,12 +1,19 @@
 ---
 layout: post
-title:  "ICAIF 2021 conference"
+title:  "Monte Carlo Tree Search for Trading and Hedging"
+type: Presentation
+location: ICAIF 2021
 date:   2021-11-04
+category: ai-trading
 ---
 
 
 
-Two of my papers were accepted to the second edition of the International Conference on AI in Finance, 4-5 November 2021 ([website](https://ai-finance.org/)): *Monte Carlo Tree Search for Trading and Hedging* and  *Learning FX Trading Strategies with FQI and Persistent Actions*, I presented the one on Monte Carlo Tree Search.
+Two of my papers were accepted to the second edition of the **International Conference on AI in Finance (ICAIF)**, 4-5 November 2021 ([website](https://ai-finance.org/)):
+- *Monte Carlo Tree Search for Trading and Hedging*
+- *Learning FX Trading Strategies with FQI and Persistent Actions*
+
+I presented the work on **Monte Carlo Tree Search**, which explores tree search algorithms for decision making in financial markets.
 
 Download the slides [[PDF]({{site.url}}/downloads/Presentation_2021_ICAIF_MCTS.pdf)].
 
