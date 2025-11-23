@@ -168,7 +168,7 @@ title: Home
   <ul>
     <li>Conducting quantitative research and innovation on AI-driven FX and futures trading strategies</li>
     <li>Translating machine learning research into production-grade trading systems</li>
-    <li>Supervising multi-disciplinary teams in model implementation and performance oversight</li>
+    <li>Supervising model implementation and performance oversight</li>
     <li>Driving the firm's strategic engagement in AI in finance, contributing as author, reviewer and organizer for international conferences</li>
   </ul>
   

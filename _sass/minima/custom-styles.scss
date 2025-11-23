@@ -358,3 +358,50 @@ h2 {
 html {
   scroll-behavior: smooth;
 }
+
+// Mobile Menu Overrides (Always visible)
+@media screen and (max-width: 768px) {
+  .site-nav {
+    margin-left: 0;
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding-top: 0.5rem;
+
+    // Hide the hamburger menu components
+    .menu-icon,
+    label[for="nav-trigger"] {
+      display: none !important;
+    }
+
+    // Force show the links container
+    .trigger {
+      display: flex !important;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      gap: 0.5rem;
+      width: 100%;
+    }
+
+    // Style the links to be smaller and inline
+    .page-link {
+      display: inline-block !important;
+      width: auto !important;
+      font-size: 0.85rem !important; // Smaller font as requested
+      padding: 0.3rem 0.6rem !important;
+      margin: 0 !important;
+      background: #f1f2f6; // Light background for button-like appearance
+      border-radius: 4px;
+      color: #2c3e50;
+
+      &:hover {
+        background: #e1e4e8;
+      }
+    }
+
+    // Ensure the checkbox hack doesn't hide it
+    input~.trigger {
+      display: flex !important;
+    }
+  }
+}
