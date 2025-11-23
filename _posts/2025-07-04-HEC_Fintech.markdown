@@ -35,5 +35,5 @@ I held a course at the [HEC Paris FinTech Summer School](https://www.hec.edu/en/
 - Intraday trading with ML
 - Cross sectional momentum with LLMs
 
-Download the slides [[PDF]({{site.url}}/downloads/Presentation_2025_HEC.pdf)].
+[*Download slides*]({{site.url}}/downloads/Presentation_2025_HEC.pdf)
 

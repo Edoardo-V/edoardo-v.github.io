@@ -9,5 +9,4 @@ category: ai-trading
 
 I gave my first 2 hour lecture to the students of the MSc in Computational Finance at **King's College London**. The topic was **Reinforcement Learning in the Capital Markets**. I had the chance to present most of my research, explaining how RL can be used to solve problems in the trading and hedging space. This lecture aimed to bridge the gap between academic theory and practical application in algorithmic trading.
 
-
-Download the full slides [[PDF]({{site.url}}/downloads/Presentation_2023_CFinance_Seminar_EV.pdf)].
+[*Download slides*]({{site.url}}/downloads/Presentation_2023_CFinance_Seminar_EV.pdf).

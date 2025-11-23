@@ -8,7 +8,7 @@ category: ai-trading
 ---
 
 I obtained the Ph.D. with a thesis entitled *Augmenting Traders with Learning Machines.*
-The thesis can be found at this [link](https://www.politesi.polimi.it/bitstream/10589/182998/1/Edoardo_Vittori_PhD_Dissertation.pdf), while the slides used for the defense can be found [here]({{site.url}}/downloads/Presentation_2022_PoliMi_PhD_Thesis_Defense.pdf).
+The thesis can be found at this [link](https://www.politesi.polimi.it/bitstream/10589/182998/1/Edoardo_Vittori_PhD_Dissertation.pdf), while the slides used for the defense can be found [*download slides*]({{site.url}}/downloads/Presentation_2022_PoliMi_PhD_Thesis_Defense.pdf).
 
 ### Abstract
 

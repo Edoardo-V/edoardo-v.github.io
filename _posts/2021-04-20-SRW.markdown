@@ -10,4 +10,4 @@ category: space-economy
 At the **Space Resources Week** [(link](https://www.spaceresourcesweek.lu/space-resources-week-2021)) I had the opportunity to present a research work done in collaboration with the [Space Economy Evolution Lab](https://www.sdabocconi.it/en/faculty-research/labs-and-research-centers/see-lab-space-economy-evolution) in SDA Bocconi and the Sapienza University of Rome.
 The work consists in a both tecnical and economic analysis with the objective of understanding if it makes sense from a business perspective for a private company to enter the domain of in space transportation, storage and distribution systems. This interdisciplinary study bridges the gap between engineering feasibility and economic viability in the emerging space sector.
 
-Download the slides [[PDF]({{site.url}}/downloads/Presentation_2021_In_orbit_refuelling_Bocconi_Sapienza.pdf)].
+[*Download slides*]({{site.url}}/downloads/Presentation_2021_In_orbit_refuelling_Bocconi_Sapienza.pdf)

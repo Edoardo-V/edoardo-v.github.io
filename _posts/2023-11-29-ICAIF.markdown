@@ -10,4 +10,4 @@ category: ai-trading
 This year, with colleagues from Intesa Sanpaolo, we submitted a paper which was accepted to the fourth edition of the **International Conference on AI in Finance (ICAIF)**, 27 November - 29 December 2023 [(website](https://ai-finance.org/)). The paper is: *CVA Hedging with Reinforcement Learning*.
 It was awarded the **Runner-up Best Industrial Paper Award**!
 
-I had the opportunity of presenting this great work. The slides are available here: [[PDF]({{site.url}}/downloads/Presentation_2023_ICAIF_CVA_hedging.pdf)].
+I had the opportunity of presenting this great work. The slides are available here: [*download slides*]({{site.url}}/downloads/Presentation_2023_ICAIF_CVA_hedging.pdf).

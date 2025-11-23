@@ -431,4 +431,6 @@ pre { padding: 1rem; overflow-x: auto; }
 
 html { scroll-behavior: smooth; }
 
+@media screen and (max-width: 768px) { .site-nav { margin-left: 0; width: 100%; background: transparent; border: none; padding-top: 0.5rem; } .site-nav .menu-icon, .site-nav label[for="nav-trigger"] { display: none !important; } .site-nav .trigger { display: flex !important; flex-wrap: wrap; justify-content: flex-start; gap: 0.5rem; width: 100%; } .site-nav .page-link { display: inline-block !important; width: auto !important; font-size: 0.85rem !important; padding: 0.3rem 0.6rem !important; margin: 0 !important; background: #f1f2f6; border-radius: 4px; color: #2c3e50; } .site-nav .page-link:hover { background: #e1e4e8; } .site-nav input ~ .trigger { display: flex !important; } }
+
 /*# sourceMappingURL=style.css.map */

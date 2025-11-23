@@ -15,5 +15,5 @@ Two of my papers were accepted to the second edition of the **International Conf
 
 I presented the work on **Monte Carlo Tree Search**, which explores tree search algorithms for decision making in financial markets.
 
-Download the slides [[PDF]({{site.url}}/downloads/Presentation_2021_ICAIF_MCTS.pdf)].
+[*Download slides*]({{site.url}}/downloads/Presentation_2021_ICAIF_MCTS.pdf)
 

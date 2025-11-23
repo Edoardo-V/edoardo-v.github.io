@@ -12,10 +12,10 @@ category: ai-trading
 Three works that I collabored on where accepted at this conference. You can find the presentation slides below!
 
 - *Monte Carlo Tree Search for Trading and Hedging*
-  <br>Download the slides [[PDF]({{site.url}}/downloads/Presentation_2021_ICAIF_MCTS.pdf)]
+  <br>*download slides*]({{site.url}}/downloads/Presentation_2021_ICAIF_MCTS.pdf)
 
 - *Dealer Markets: A Reinforcement Mean Field Approach*
-  <br>Download the slides [[PDF]({{site.url}}/downloads/Presentation_2021_PoliMi_Dealers.pdf)].
+  <br>*download slides*]({{site.url}}/downloads/Presentation_2021_PoliMi_Dealers.pdf)
 
 - *Option Hedging with Risk Averse Reinforcement Learning*
-  <br>Download the slides [[PDF]({{site.url}}/downloads/Presentation_2021_PoliMi_OH.pdf)].
+  <br>*download slides*]({{site.url}}/downloads/Presentation_2021_PoliMi_OH.pdf)

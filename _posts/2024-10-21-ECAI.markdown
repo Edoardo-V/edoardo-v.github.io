@@ -13,4 +13,4 @@ My presentation focused on quantitative trading with machine learning. I covered
 
 You can find more details about the workshop and its program on the [official website](https://sites.google.com/view/ecai24-ai-fin).
 
-Download the slides [[PDF]({{site.url}}/downloads/Presentation_2024_ECAI.pdf)]
+[*Download slides*]({{site.url}}/downloads/Presentation_2024_ECAI.pdf)

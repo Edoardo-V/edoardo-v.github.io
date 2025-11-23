@@ -9,4 +9,4 @@ category: ai-trading
 
 At the conference **Machine Learning for Finance**, 18 December 2020, held by the University of Venenzia ([website](https://www.unive.it/data/agenda/3/45054)), I had the opportunity of presenting my work on *Online Portfolio Optimization: Online Gradient Descent with Momentum*. This presentation discussed efficient methods for optimizing portfolios in real-time while accounting for transaction costs.
 
-Download the slides [[PDF]({{site.url}}/downloads/Presentation_2020_UNIVE_OGDM.pdf)].
+[*Download slides*]({{site.url}}/downloads/Presentation_2020_UNIVE_OGDM.pdf)

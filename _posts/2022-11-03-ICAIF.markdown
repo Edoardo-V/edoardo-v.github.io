@@ -14,4 +14,4 @@ Also this year, I submitted two papers which were both accepted to the third edi
 I presented the one on **Smart Routing on Dark Pools**!
 
 - *Dark Pool Smart Order Routing, a Combinatorial-MAB Approach*
-  <br>Download the slides [[PDF]({{site.url}}/downloads/Presentation_2022_ICAIF_DPSOR.pdf)].
+  <br>[*download slides*]({{site.url}}/downloads/Presentation_2022_ICAIF_DPSOR.pdf).

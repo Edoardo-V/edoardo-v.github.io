@@ -10,5 +10,5 @@ category: space-economy
 At the **SDA Bocconi workshop on Space Economy** ([link](https://www.sdabocconi.it/en/workshop-milan-mining-the-moon-for-profit)), I presented a research work done in collaboration with the [Space Economy Evolution Lab](https://www.sdabocconi.it/en/faculty-research/labs-and-research-centers/see-lab-space-economy-evolution).
 The work consists in a study where a business plan was constructed in order to understand if it is profitable to extract water from the Moon in order to use it as propellant to fuel Cislinar travel. This research contributes to the growing field of space economics, analyzing the financial viability of in-situ resource utilization (ISRU).
 
-Download the slides [[PDF](https://www.sdabocconi.it/upl/entities/attachment/Mining%20the%20Moon%20for%20profit/Presentation_2019_SEE_Lab_Mining_the_Moon_for_Profit.pdf)].
+[*Download slides*]({{site.url}}/downloads/Presentation_2019_SEE_Lab_Mining_the_Moon_for_Profit.pdf)
 
