@@ -58,6 +58,9 @@
 }
 
 .publication-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   margin-bottom: 1.5rem;
   padding: 1rem;
   background: #f9f9f9;
@@ -68,6 +71,11 @@
 .publication-item:hover {
   background: #f0f0f0;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.publication-content {
+  flex: 1;
+  padding-right: 1rem;
 }
 
 .publication-item h3 {
@@ -84,7 +92,12 @@
 }
 
 .publication-links {
-  margin-top: 0.5rem;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+  min-width: fit-content;
 }
 
 .publication-links a {
@@ -193,11 +206,13 @@
   <h2>AI &amp; Trading</h2>
 
   <div class="publication-item">
-    <h3>Reinforcement Learning in Queue-Reactive Models: Application to Optimal Execution</h3>
-    <div class="publication-meta">
-      <strong>Authors:</strong> Tomas Espana, Yadh Hafsi, Fabrizio Lillo, Edoardo Vittori<br />
-      <strong>Year:</strong> 2025, arXiv
-
+    <div class="publication-content">
+      <h3>Reinforcement Learning in Queue-Reactive Models: Application to Optimal Execution</h3>
+      <div class="publication-meta">
+        <strong>Authors:</strong> Tomas Espana, Yadh Hafsi, Fabrizio Lillo, Edoardo Vittori<br />
+        <strong>Year:</strong> 2025<br />
+        <strong>Venue:</strong> arXiv
+      </div>
     </div>
     <div class="publication-links">
       <a href="https://arxiv.org/pdf/2511.15262">PDF</a>
@@ -205,11 +220,13 @@
   </div>
 
   <div class="publication-item">
-    <h3>Leveraging LLMs for Top-Down Sector Allocation in Automated Trading</h3>
-    <div class="publication-meta">
-      <strong>Authors:</strong> Ryan Quek Wei Heng, Edoardo Vittori, Keane Ong, Rui Mao, Erik Cambria, Gianmarco Mengaldo<br />
-      <strong>Year:</strong> 2025
-
+    <div class="publication-content">
+      <h3>Leveraging LLMs for Top-Down Sector Allocation in Automated Trading</h3>
+      <div class="publication-meta">
+        <strong>Authors:</strong> Ryan Quek Wei Heng, Edoardo Vittori, Keane Ong, Rui Mao, Erik Cambria, Gianmarco Mengaldo<br />
+        <strong>Year:</strong> 2025<br />
+        <strong>Venue:</strong> arXiv
+      </div>
     </div>
     <div class="publication-links">
       <a href="https://arxiv.org/pdf/2503.09647">PDF</a>
@@ -217,11 +234,13 @@
   </div>
 
   <div class="publication-item">
-    <h3>Optimal Execution with Reinforcement Learning</h3>
-    <div class="publication-meta">
-      <strong>Authors:</strong> Yadh Hafsi, Edoardo Vittori<br />
-      <strong>Year:</strong> 2024, arXiv
-
+    <div class="publication-content">
+      <h3>Optimal Execution with Reinforcement Learning</h3>
+      <div class="publication-meta">
+        <strong>Authors:</strong> Yadh Hafsi, Edoardo Vittori<br />
+        <strong>Year:</strong> 2024<br />
+        <strong>Venue:</strong> arXiv
+      </div>
     </div>
     <div class="publication-links">
       <a href="https://arxiv.org/pdf/2411.06389">PDF</a>
@@ -229,11 +248,13 @@
   </div>
 
   <div class="publication-item">
-    <h3>Exploiting Risk-Aversion and Size-dependent fees in FX Trading with Fitted Natural Actor-Critic</h3>
-    <div class="publication-meta">
-      <strong>Authors:</strong> Vito Alessandro Monaco, Antonio Riva, Luca Sabbioni, Lorenzo Bisi, Edoardo Vittori, Marco Pinciroli, Michele Trapletti, Marcello Restelli<br />
-      <strong>Year:</strong> 2024, arXiv
-
+    <div class="publication-content">
+      <h3>Exploiting Risk-Aversion and Size-dependent fees in FX Trading with Fitted Natural Actor-Critic</h3>
+      <div class="publication-meta">
+        <strong>Authors:</strong> Vito Alessandro Monaco, Antonio Riva, Luca Sabbioni, Lorenzo Bisi, Edoardo Vittori, Marco Pinciroli, Michele Trapletti, Marcello Restelli<br />
+        <strong>Year:</strong> 2024<br />
+        <strong>Venue:</strong> arXiv
+      </div>
     </div>
     <div class="publication-links">
       <a href="https://arxiv.org/pdf/2410.23294">PDF</a>
@@ -241,12 +262,14 @@
   </div>
 
   <div class="publication-item">
-    <h3>CVA Hedging with Reinforcement Learning</h3>
-    <div class="publication-meta">
-      <strong>Authors:</strong> Roberto Daluiso, Marco Pinciroli, Michele Trapletti, Edoardo Vittori<br />
-      <strong>Year:</strong> 2023, International Conference on AI for Finance
-
-      <span class="award-badge">Runner-up Best Industrial Paper Award</span>
+    <div class="publication-content">
+      <h3>CVA Hedging with Reinforcement Learning</h3>
+      <div class="publication-meta">
+        <strong>Authors:</strong> Roberto Daluiso, Marco Pinciroli, Michele Trapletti, Edoardo Vittori<br />
+        <strong>Year:</strong> 2023<br />
+        <strong>Venue:</strong> International Conference on AI for Finance
+        <span class="award-badge">Runner-up Best Industrial Paper Award</span>
+      </div>
     </div>
     <div class="publication-links">
       <a href="http://localhost:4000/downloads/2023_Daluiso_CVA.pdf">PDF</a>
@@ -255,11 +278,13 @@
   </div>
 
   <div class="publication-item">
-    <h3>Dealer Markets: a Reinforcement Learning Mean Field Game Approach</h3>
-    <div class="publication-meta">
-      <strong>Authors:</strong> Martino Bernasconi De Luca, Edoardo Vittori, Francesco Trovò, Marcello Restelli<br />
-      <strong>Year:</strong> 2023, The North American Journal of Economics and Finance
-
+    <div class="publication-content">
+      <h3>Dealer Markets: a Reinforcement Learning Mean Field Game Approach</h3>
+      <div class="publication-meta">
+        <strong>Authors:</strong> Martino Bernasconi De Luca, Edoardo Vittori, Francesco Trovò, Marcello Restelli<br />
+        <strong>Year:</strong> 2023<br />
+        <strong>Venue:</strong> The North American Journal of Economics and Finance
+      </div>
     </div>
     <div class="publication-links">
       <a href="https://www.sciencedirect.com/science/article/pii/S1062940823000979">Link</a>
@@ -267,11 +292,13 @@
   </div>
 
   <div class="publication-item">
-    <h3>Reinforcement Learning for Credit Index Option Hedging</h3>
-    <div class="publication-meta">
-      <strong>Authors:</strong> Francesco Mandelli, Marco Pinciroli, Michele Trapletti, Edoardo Vittori<br />
-      <strong>Year:</strong> 2023, arXiv
-
+    <div class="publication-content">
+      <h3>Reinforcement Learning for Credit Index Option Hedging</h3>
+      <div class="publication-meta">
+        <strong>Authors:</strong> Francesco Mandelli, Marco Pinciroli, Michele Trapletti, Edoardo Vittori<br />
+        <strong>Year:</strong> 2023<br />
+        <strong>Venue:</strong> arXiv
+      </div>
     </div>
     <div class="publication-links">
       <a href="https://arxiv.org/pdf/2307.09844.pdf">PDF</a>
@@ -279,11 +306,13 @@
   </div>
 
   <div class="publication-item">
-    <h3>Augmenting Traders with Learning Machines</h3>
-    <div class="publication-meta">
-      <strong>Authors:</strong> Edoardo Vittori<br />
-      <strong>Year:</strong> 2022, PhD dissertation
-
+    <div class="publication-content">
+      <h3>Augmenting Traders with Learning Machines</h3>
+      <div class="publication-meta">
+        <strong>Authors:</strong> Edoardo Vittori<br />
+        <strong>Year:</strong> 2022<br />
+        <strong>Venue:</strong> PhD dissertation
+      </div>
     </div>
     <div class="publication-links">
       <a href="https://www.politesi.polimi.it/bitstream/10589/182998/1/Edoardo_Vittori_PhD_Dissertation.pdf">PDF</a>
@@ -291,11 +320,13 @@
   </div>
 
   <div class="publication-item">
-    <h3>Dark-Pool Smart Order Routing: a Combinatorial Multi-armed Bandit Approach</h3>
-    <div class="publication-meta">
-      <strong>Authors:</strong> Martino Bernasconi De Luca, Stefano Martino, Edoardo Vittori, Francesco Trovò, Marcello Restelli<br />
-      <strong>Year:</strong> 2022, International Conference on AI for Finance
-
+    <div class="publication-content">
+      <h3>Dark-Pool Smart Order Routing: a Combinatorial Multi-armed Bandit Approach</h3>
+      <div class="publication-meta">
+        <strong>Authors:</strong> Martino Bernasconi De Luca, Stefano Martino, Edoardo Vittori, Francesco Trovò, Marcello Restelli<br />
+        <strong>Year:</strong> 2022<br />
+        <strong>Venue:</strong> International Conference on AI for Finance
+      </div>
     </div>
     <div class="publication-links">
       <a href="http://localhost:4000/downloads/2022_Martino_dark.pdf">PDF</a>
@@ -304,11 +335,13 @@
   </div>
 
   <div class="publication-item">
-    <h3>Addressing Non-Stationarity in FX Trading with Online Model Selection of Offline RL Experts</h3>
-    <div class="publication-meta">
-      <strong>Authors:</strong> Antonio Riva, Lorenzo Bisi, Pierre Liotet, Luca Sabbioni, Edoardo Vittori, Marco Pinciroli, Michele Trapletti, Marcello Restelli<br />
-      <strong>Year:</strong> 2022, International Conference on AI for Finance
-
+    <div class="publication-content">
+      <h3>Addressing Non-Stationarity in FX Trading with Online Model Selection of Offline RL Experts</h3>
+      <div class="publication-meta">
+        <strong>Authors:</strong> Antonio Riva, Lorenzo Bisi, Pierre Liotet, Luca Sabbioni, Edoardo Vittori, Marco Pinciroli, Michele Trapletti, Marcello Restelli<br />
+        <strong>Year:</strong> 2022<br />
+        <strong>Venue:</strong> International Conference on AI for Finance
+      </div>
     </div>
     <div class="publication-links">
       <a href="http://localhost:4000/downloads/2022_Riva_expertfx.pdf">PDF</a>
@@ -317,11 +350,13 @@
   </div>
 
   <div class="publication-item">
-    <h3>MCTS for Trading and Hedging</h3>
-    <div class="publication-meta">
-      <strong>Authors:</strong> Edoardo Vittori, Amarildo Likmeta, Marcello Restelli<br />
-      <strong>Year:</strong> 2021, International Conference on AI for Finance
-
+    <div class="publication-content">
+      <h3>MCTS for Trading and Hedging</h3>
+      <div class="publication-meta">
+        <strong>Authors:</strong> Edoardo Vittori, Amarildo Likmeta, Marcello Restelli<br />
+        <strong>Year:</strong> 2021<br />
+        <strong>Venue:</strong> International Conference on AI for Finance
+      </div>
     </div>
     <div class="publication-links">
       <a href="http://localhost:4000/downloads/2021_Vittori_MCTS.pdf">PDF</a>
@@ -330,11 +365,13 @@
   </div>
 
   <div class="publication-item">
-    <h3>Learning FX Trading Strategies with FQI and Persistent Actions</h3>
-    <div class="publication-meta">
-      <strong>Authors:</strong> Antonio Riva, Lorenzo Bisi, Pierre Liotet, Luca Sabbioni, Edoardo Vittori, Marco Pinciroli, Michele Trapletti, Marcello Restelli<br />
-      <strong>Year:</strong> 2021, International Conference on AI for Finance
-
+    <div class="publication-content">
+      <h3>Learning FX Trading Strategies with FQI and Persistent Actions</h3>
+      <div class="publication-meta">
+        <strong>Authors:</strong> Antonio Riva, Lorenzo Bisi, Pierre Liotet, Luca Sabbioni, Edoardo Vittori, Marco Pinciroli, Michele Trapletti, Marcello Restelli<br />
+        <strong>Year:</strong> 2021<br />
+        <strong>Venue:</strong> International Conference on AI for Finance
+      </div>
     </div>
     <div class="publication-links">
       <a href="http://localhost:4000/downloads/2021_Riva_FX.pdf">PDF</a>
@@ -343,11 +380,13 @@
   </div>
 
   <div class="publication-item">
-    <h3>Conservative Online Convex Optimization</h3>
-    <div class="publication-meta">
-      <strong>Authors:</strong> Martino Bernasconi De Luca, Edoardo Vittori, Francesco Trovò, Marcello Restelli<br />
-      <strong>Year:</strong> 2021, European Conference on Machine Learning
-
+    <div class="publication-content">
+      <h3>Conservative Online Convex Optimization</h3>
+      <div class="publication-meta">
+        <strong>Authors:</strong> Martino Bernasconi De Luca, Edoardo Vittori, Francesco Trovò, Marcello Restelli<br />
+        <strong>Year:</strong> 2021<br />
+        <strong>Venue:</strong> European Conference on Machine Learning
+      </div>
     </div>
     <div class="publication-links">
       <a href="https://2021.ecmlpkdd.org/wp-content/uploads/2021/07/sub_271.pdf">PDF</a>
@@ -355,11 +394,13 @@
   </div>
 
   <div class="publication-item">
-    <h3>Dealing with Transaction Costs in Portfolio Optimization: Online Gradient Descent with Momentum</h3>
-    <div class="publication-meta">
-      <strong>Authors:</strong> Edoardo Vittori, Martino Bernasconi De Luca, Francesco Trovò, Marcello Restelli<br />
-      <strong>Year:</strong> 2020, International Conference on AI for Finance
-
+    <div class="publication-content">
+      <h3>Dealing with Transaction Costs in Portfolio Optimization: Online Gradient Descent with Momentum</h3>
+      <div class="publication-meta">
+        <strong>Authors:</strong> Edoardo Vittori, Martino Bernasconi De Luca, Francesco Trovò, Marcello Restelli<br />
+        <strong>Year:</strong> 2020<br />
+        <strong>Venue:</strong> International Conference on AI for Finance
+      </div>
     </div>
     <div class="publication-links">
       <a href="http://localhost:4000/downloads/2020_Vittori_OGDM.pdf">PDF</a>
@@ -368,11 +409,13 @@
   </div>
 
   <div class="publication-item">
-    <h3>Option Hedging with Risk Averse Reinforcement Learning</h3>
-    <div class="publication-meta">
-      <strong>Authors:</strong> Edoardo Vittori, Michele Trapletti, Marcello Restelli<br />
-      <strong>Year:</strong> 2020, International Conference on AI for Finance
-
+    <div class="publication-content">
+      <h3>Option Hedging with Risk Averse Reinforcement Learning</h3>
+      <div class="publication-meta">
+        <strong>Authors:</strong> Edoardo Vittori, Michele Trapletti, Marcello Restelli<br />
+        <strong>Year:</strong> 2020<br />
+        <strong>Venue:</strong> International Conference on AI for Finance
+      </div>
     </div>
     <div class="publication-links">
       <a href="https://arxiv.org/pdf/2010.12245">PDF</a>
@@ -381,11 +424,13 @@
   </div>
 
   <div class="publication-item">
-    <h3>Risk-Averse Trust Region Optimization for Reward-Volatility Reduction</h3>
-    <div class="publication-meta">
-      <strong>Authors:</strong> Lorenzo Bisi, Luca Sabbioni, Edoardo Vittori, Matteo Papini, Marcello Restelli<br />
-      <strong>Year:</strong> 2020, International Joint Conference on Artificial Intelligence
-
+    <div class="publication-content">
+      <h3>Risk-Averse Trust Region Optimization for Reward-Volatility Reduction</h3>
+      <div class="publication-meta">
+        <strong>Authors:</strong> Lorenzo Bisi, Luca Sabbioni, Edoardo Vittori, Matteo Papini, Marcello Restelli<br />
+        <strong>Year:</strong> 2020<br />
+        <strong>Venue:</strong> International Joint Conference on Artificial Intelligence
+      </div>
     </div>
     <div class="publication-links">
       <a href="https://www.ijcai.org/Proceedings/2020/0632.pdf">PDF</a>
@@ -398,11 +443,13 @@
   <h2>Space Economy</h2>
 
   <div class="publication-item">
-    <h3>Is the Lunar Economy Solely for the Space Industry? Opportunities for Nonspace Companies in Lunar Infrastructure Leveraging Technological Synergies</h3>
-    <div class="publication-meta">
-      <strong>Authors:</strong> Christophe Bosquillon, Lari Cujko, Gidon Gautel, Derek Webber, Andrea Conconi, Mattia Pianorsi, Simonetta Di Pippo, Edoardo Vittori<br />
-      <strong>Year:</strong> 2024, New Space
-
+    <div class="publication-content">
+      <h3>Is the Lunar Economy Solely for the Space Industry? Opportunities for Nonspace Companies in Lunar Infrastructure Leveraging Technological Synergies</h3>
+      <div class="publication-meta">
+        <strong>Authors:</strong> Christophe Bosquillon, Lari Cujko, Gidon Gautel, Derek Webber, Andrea Conconi, Mattia Pianorsi, Simonetta Di Pippo, Edoardo Vittori<br />
+        <strong>Year:</strong> 2024<br />
+        <strong>Venue:</strong> New Space
+      </div>
     </div>
     <div class="publication-links">
       <a href="https://www.liebertpub.com/doi/abs/10.1089/space.2023.0057">Link</a>
@@ -410,11 +457,13 @@
   </div>
 
   <div class="publication-item">
-    <h3>Preliminary analyses on technical and economic viability of moon-mined propellant for on-orbit refueling</h3>
-    <div class="publication-meta">
-      <strong>Authors:</strong> Andrea Sommariva, Paolo Gaudenzi, Mattia Pianorsi, Michele Pasquali, Edoardo Vittori, Marco Eugeni, Matilde Italiano et al.<br />
-      <strong>Year:</strong> 2023, Acta Astronautica
-
+    <div class="publication-content">
+      <h3>Preliminary analyses on technical and economic viability of moon-mined propellant for on-orbit refueling</h3>
+      <div class="publication-meta">
+        <strong>Authors:</strong> Andrea Sommariva, Paolo Gaudenzi, Mattia Pianorsi, Michele Pasquali, Edoardo Vittori, Marco Eugeni, Matilde Italiano et al.<br />
+        <strong>Year:</strong> 2023<br />
+        <strong>Venue:</strong> Acta Astronautica
+      </div>
     </div>
     <div class="publication-links">
       <a href="https://www.sciencedirect.com/science/article/pii/S0094576523000061?dgcid=author">Link</a>
@@ -422,11 +471,13 @@
   </div>
 
   <div class="publication-item">
-    <h3>GLINT: Gravitational-wave laser INterferometry triangle</h3>
-    <div class="publication-meta">
-      <strong>Authors:</strong> Shafa Aria, Rui Azevedo, Rick Burow, Fiachra Cahill, Lada Ducheckova, Alexa Holroyd, Victor Huarcaya, Emilia Jarvel, Martin Koßagk, Chris Moeckel, Ana Rodriguez, Fabien Royer, Richard Sypniewski, Edoardo Vittori, Madeleine Yttergren<br />
-      <strong>Year:</strong> 2017, Experimental Astronomy
-
+    <div class="publication-content">
+      <h3>GLINT: Gravitational-wave laser INterferometry triangle</h3>
+      <div class="publication-meta">
+        <strong>Authors:</strong> Shafa Aria, Rui Azevedo, Rick Burow, Fiachra Cahill, Lada Ducheckova, Alexa Holroyd, Victor Huarcaya, Emilia Jarvel, Martin Koßagk, Chris Moeckel, Ana Rodriguez, Fabien Royer, Richard Sypniewski, Edoardo Vittori, Madeleine Yttergren<br />
+        <strong>Year:</strong> 2017<br />
+        <strong>Venue:</strong> Experimental Astronomy
+      </div>
     </div>
     <div class="publication-links">
       <a href="https://www.researchgate.net/publication/321195945_GLINT_Gravitational-wave_laser_INterferometry_triangle/fulltext/5d6ec8db45851542789f742a/GLINT-Gravitational-wave-laser-INterferometry-triangle.pdf">PDF</a>
