@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Optimal Execution in a Queue Reactive Model"
+type: Presentation
+location: University of Pavia — Fintech Research Conference
+date:   2026-03-27
+category: ai-trading
+---
+
+I presented at the **Fintech Research Conference** at the **University of Pavia** on March 27, 2026, on *Reinforcement Learning for Optimal Execution with the Queue Reactive Model*.
+
+My presentation covered the formulation of optimal execution as a reinforcement learning problem within the queue reactive model framework. I discussed the advantages of the queue reactive model for market simulation compared to stochastic and agent-based alternatives, how to embed the execution problem into an RL environment, and presented experimental results showing how RL agents learn to minimize market impact and transaction costs in a realistic order book setting.
+
+[*Download slides*]({{site.url}}/downloads/Presentation_2026_Pavia_QRM.pdf)

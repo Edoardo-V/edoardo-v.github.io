@@ -167,6 +167,20 @@ order: 3
 
   <div class="publication-item">
     <div class="publication-content">
+      <h3>Time-Inhomogeneous Volatility Aversion for Financial Applications of Reinforcement Learning</h3>
+      <div class="publication-meta">
+        <strong>Authors:</strong> Federico Cacciamani, Roberto Daluiso, Marco Pinciroli, Michele Trapletti, Edoardo Vittori<br>
+        <strong>Year:</strong> 2026<br>
+        <strong>Venue:</strong> arXiv
+      </div>
+    </div>
+    <div class="publication-links">
+      <a href="https://arxiv.org/pdf/2602.12030">PDF</a>
+    </div>
+  </div>
+
+  <div class="publication-item">
+    <div class="publication-content">
       <h3>Reinforcement Learning in Queue-Reactive Models: Application to Optimal Execution</h3>
       <div class="publication-meta">
         <strong>Authors:</strong> Tomas Espana, Yadh Hafsi, Fabrizio Lillo, Edoardo Vittori<br>
@@ -195,15 +209,16 @@ order: 3
 
   <div class="publication-item">
     <div class="publication-content">
-      <h3>Optimal Execution with Reinforcement Learning</h3>
+      <h3>Optimal Execution with Reinforcement Learning in a Multi-Agent Market Simulator</h3>
       <div class="publication-meta">
         <strong>Authors:</strong> Yadh Hafsi, Edoardo Vittori<br>
-        <strong>Year:</strong> 2024<br>
-        <strong>Venue:</strong> arXiv
+        <strong>Year:</strong> 2026<br>
+        <strong>Venue:</strong> IEEE International Conference on AI for Finance (ICAIF)
       </div>
     </div>
     <div class="publication-links">
       <a href="https://arxiv.org/pdf/2411.06389">PDF</a>
+      <a href="https://ieeexplore.ieee.org/abstract/document/11467851">Link</a>
     </div>
   </div>
 
