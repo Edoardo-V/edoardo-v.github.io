@@ -148,7 +148,7 @@ title: Home
 
   <div class="intro">
     <div class="intro-text">
-    <p>I am a Vice President at Intesa Sanpaolo with a Ph.D. in Artificial Intelligence and over nine years of experience in quantitative finance, trading strategy development, and AI innovation. I specialize in developing systematic investment strategies powered by advanced machine learning techniques, including deep learning and reinforcement learning. As a CAIA charterholder, I combine hands-on trading experience with rigorous quantitative research to deliver institutional-grade trading systems that generate alpha while managing risk effectively.</p>
+    <p>I am a Business Director in Cross Asset Systematic Trading at Intesa Sanpaolo IMI CIB with a Ph.D. in Machine Learning and approximately ten years of experience in quantitative finance, systematic trading, and AI innovation. I lead portfolio construction across internally built and externally sourced systematic strategies, and I specialize in developing institutional-grade trading capabilities powered by advanced machine learning techniques, including deep learning and reinforcement learning. As a CAIA charterholder, I combine hands-on trading experience with rigorous quantitative research to deliver trading systems that generate alpha while managing risk effectively.</p>
     <p>My work bridges cutting-edge academic research with practical applications in quantitative finance, driving digital transformation and data-driven decision-making in financial institutions. My research spans <a href="./research/">AI research</a>, as well as <a href="./space-economy/">space economy research</a>, reflecting a strategic approach to applying quantitative methods to complex economic systems.</p>
     </div>
           <img src="/images/me_round.png" alt="Profile Picture" />
@@ -157,10 +157,11 @@ title: Home
 <div class="profile-section">
   <h2>Professional Experience</h2>
   <h3>2025 - Present</h3>
-  <p><strong>Vice President, Cross Asset Systematic Trading</strong> — Intesa Sanpaolo IMICIB, Milan</p>
+  <p><strong>Business Director, Cross Asset Systematic Trading</strong> — Intesa Sanpaolo IMICIB, Milan</p>
   <ul>
-    <li>Scaling-up systematic FX strategies by upgrading strategies and improving execution</li>
-    <li>Supervising build-up of systematic futures trading infrastructure</li>
+    <li>Leading portfolio construction across internally built and externally sourced systematic strategies in FX, futures and QIS</li>
+    <li>Monitoring live strategies through performance attribution, drawdown, exposure and stress-test analysis; presenting recommendations to senior management</li>
+    <li>Coordinating technology, risk, compliance and middle-office stakeholders; supervising PhD and master's students</li>
     <li>Driving the firm's strategic engagement in AI in finance, contributing as author, reviewer and organizer for international conferences</li>
   </ul>
 
@@ -252,6 +253,15 @@ title: Home
     <a href="https://www.researchgate.net/profile/Edoardo-Vittori" target="_blank">ResearchGate</a>
     <a href="https://dl.acm.org/profile/99659892125" target="_blank">ACM Profile</a>
   </div>
+</div>
+
+<div class="profile-section">
+  <h2>Academic Engagement & Service</h2>
+  <ul>
+    <li><strong>Sponsorship Chair, ICAIF 2026 (ACM International Conference on AI in Finance), Milan</strong> — member of the organizing committee of the conference's first edition hosted in Milan</li>
+    <li><strong>Main organizer of the AI in Finance Workshop at ECAI 2025, Bologna</strong> — program committee, sponsorship, panel organization and moderation, with more than 80 participants</li>
+    <li><strong>Guest lecturer at the HEC Paris FinTech Summer School (2025 and 2026)</strong> — courses on Quantitative Finance; guest talks at SDA Bocconi and Università Cattolica del Sacro Cuore</li>
+  </ul>
 </div>
 
 <div class="profile-section">

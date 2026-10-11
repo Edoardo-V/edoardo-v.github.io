@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "Quantitative Finance"
+type: Lecture
+location: HEC Paris FinTech Summer School
+date:   2026-07-07
+category: ai-trading
+---
+
+I was invited back as a guest lecturer at the [HEC Paris FinTech Summer School](https://www.hec.edu/en/summer-school/summer-programs/fintech-future-finance), where I taught *Quantitative Finance* on July 7th, 2026. This followed my 2025 course in the same **"FinTech: The Future of Finance"** program.
+
+The lecture was built around one idea: **quantitative finance is not about knowing the future — it is about making better decisions when the future is uncertain.** The journey unfolded across seven parts:
+
+**Can We Predict the Future?**
+- From a 51% edge to a business: costs, asymmetry and risk
+- Prediction is not trading
+
+**Capital Markets Landscape**
+- Banks and profit centers
+- Market making, asset management and hedge funds, execution desks, prop trading
+- The role of quants in each
+
+**Financial Engineering Foundations**
+- Stochastic processes, Black and Scholes, Monte Carlo simulations
+- Optimal execution: Almgren and Chriss, Avellaneda and Stoikov
+
+**Systematic Strategies**
+- Trend, mean reversion and intraday seasonality — from intuition to backtested P&L
+- Judging a strategy in the right order, and why backtests are dangerous
+
+**Portfolio Optimization**
+- Combining many imperfect strategies, diversification and the efficient frontier
+
+**Machine Learning in Trading**
+- Why financial ML is genuinely hard
+- Supervised learning, validation by walking forward in time
+- Reinforcement learning for FX trading
+
+**Generative AI in Trading**
+- Cross-sectional momentum, value and quality strategies
+- LLMs as signal extractors — and why not to ask an LLM "what should I buy?"
+- Multi-agent system design for equity trading
+
+[*Download slides*]({{site.url}}/downloads/Presentation_2026_HEC.pdf)
