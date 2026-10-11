@@ -159,7 +159,7 @@ title: Home
   <h3>2025 - Present</h3>
   <p><strong>Business Director, Cross Asset Systematic Trading</strong> — Intesa Sanpaolo IMICIB, Milan</p>
   <ul>
-    <li>Leading portfolio construction across internally built and externally sourced systematic strategies in FX, futures and QIS</li>
+    <li>Portfolio construction across internally built and externally sourced systematic strategies in FX, futures and QIS</li>
     <li>Monitoring live strategies through performance attribution, drawdown, exposure and stress-test analysis; presenting recommendations to senior management</li>
     <li>Coordinating technology, risk, compliance and middle-office stakeholders; supervising PhD and master's students</li>
     <li>Driving the firm's strategic engagement in AI in finance, contributing as author, reviewer and organizer for international conferences</li>
